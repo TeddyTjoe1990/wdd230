@@ -1,25 +1,25 @@
 const daynames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
 ];
 const months = [
-	"January",
-	"February",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December"
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
 ];
 const d = new Date();
 const dayName = daynames[d.getDay()];
@@ -34,8 +34,8 @@ document.getElementById("currentdate").textContent = fulldate;
 const date2 = document.querySelector('#currentdate2');
 
 try {
-	const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-	date2.textContent = new Date().toLocaleDateString('id-ID', options);
-	} catch (e) {
-	alert('Error with code or your browser does not support Locale');
-	}
+    const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+    date2.textContent = new Date().toLocaleDateString('id-ID', options);
+} catch (e) {
+    alert('Error with code or your browser does not support Locale');
+}
