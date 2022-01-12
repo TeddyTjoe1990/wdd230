@@ -33,9 +33,6 @@ document.getElementById("currentdate").textContent = fulldate;
 // using querySelector
 const date2 = document.querySelector('#currentdate2');
 
-try {
-    const options = { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
-    date2.textContent = new Date().toLocaleDateString('id-ID', options);
-} catch (e) {
-    alert('Error with code or your browser does not support Locale');
-}
+const d = new Date();
+let text = d.toLocaleString();
+document.getElementById("demo").innerHTML = text;
