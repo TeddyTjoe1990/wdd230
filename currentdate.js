@@ -32,7 +32,3 @@ document.getElementById("currentdate").textContent = fulldate;
 // ****************************
 // using querySelector
 const date2 = document.querySelector('#currentdate2');
-
-const d = new Date();
-let text = d.toLocaleString();
-document.getElementById("demo").innerHTML = text;
