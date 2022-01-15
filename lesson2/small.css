@@ -29,6 +29,7 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     color: rgb(2, 0, 0);
+    grid-column-gap: 15px;
     font-weight: bolder;
 }
 
@@ -41,7 +42,7 @@ a {
 }
 
 img {
-    width: 98%;
+    width: 100%;
     border-radius: 5px;
 }
 
