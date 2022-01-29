@@ -1,48 +1,49 @@
 body {
-	max-width: 50%;
-	margin: 1em auto;
-	background-color: rgb(250, 247, 61);
+    max-width: 50%;
+    margin: 1em auto;
+    background-color: rgb(250, 247, 61);
 }
 
 header {
-	display: grid;
-	grid-template-columns: auto 1fr;
-	grid-gap: 10px;
-	align-items: center;
-	background-color: rgb(7, 248, 248);
-	border-radius: 10px;
-	padding: 1rem;
-	box-shadow: 5px 5px 5px black;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    background-color: rgb(7, 248, 248);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px black;
 }
 
 .title {
-	text-align: center;
+    text-align: center;
 }
+
 .second-title {
-	border-bottom: 1px solid black;
-	font-weight: bold;
+    border-bottom: 1px solid black;
+    font-weight: bold;
 }
 
 div {
-	display: grid;
-	grid-template-columns: 1fr;
-	align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
 }
 
 p {
-	border-top: 1px solid black;
+    border-top: 1px solid black;
 }
 
 .main-image {
-	text-align: center;
+    text-align: center;
 }
 
 footer {
-	background-color: rgb(7, 248, 248);
-	border-radius: 10px;
-	padding: 10px;
-	font-family: luxurious-roman;
-	text-align: center;
-	font-weight: bold;
-	box-shadow: 5px 5px 5px black;
+    background-color: rgb(7, 248, 248);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "luxurious-roman";
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
 }
