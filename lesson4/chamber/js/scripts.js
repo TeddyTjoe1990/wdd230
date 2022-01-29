@@ -36,7 +36,7 @@ document.querySelector("#currentDate").textContent = currentDate;
 // Footer date display
 document.querySelector("#year").textContent = year;
 
-document.getElementById("lu").textContent =
+document.getElementById("updatetime").textContent =
     " Last Updated: " + document.lastModified;
 
 // Hamburger Nav
