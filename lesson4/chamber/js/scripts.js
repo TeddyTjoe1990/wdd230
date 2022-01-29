@@ -23,7 +23,7 @@ const monthName = [
     "December",
 ];
 
-// Header Date 
+// Header Date display
 const day = daysName[completeDate.getDay()];
 const todaysDate = completeDate.getDate();
 const month = monthName[completeDate.getMonth()];
@@ -33,13 +33,13 @@ const currentDate = `${day}, ${todaysDate} ${month} ${year}`;
 
 document.querySelector("#currentDate").textContent = currentDate;
 
-// Footer date 
+// Footer date display
 document.querySelector("#year").textContent = year;
 
 document.getElementById("lu").textContent =
     " Last Updated: " + document.lastModified;
 
-// While Hamburger Nav
+// Hamburger Nav
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");

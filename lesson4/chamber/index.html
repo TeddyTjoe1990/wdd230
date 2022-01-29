@@ -1,34 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Batavia Chamber of Commerce - Home</title>
-
-    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Batavia Chamber of Commerce Website." />
 
     <!-- FONT STYLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+sans&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+sans&family=Source+Serif+4&display=swap" rel="stylesheet" />
     <!-- STYLE SHEETS -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet">
-    <!-- enhance-tablet -->
-    <link href="css/med.css" rel="stylesheet">
-    <!-- enhance-desktop -->
-    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/med.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <title>Batavia Chamber of Commerce - Home</title>
 </head>
 
 <body>
-    <!-- HEADER HERE -->
     <header>
-        <img src="images/BATAVIA_Logo2.png" alt="Batavia Chamber of Commerce" title="logo" />
+        <img src="images/LogoOnlyT.png" alt="Batavia-Logo" title="BataviaLogo" />
+
         <h1>Batavia Chamber of Commerce</h1>
         <h2>Your Trusted Chamber</h2>
     </header>
@@ -37,9 +31,9 @@
     <!-- NAVIGATION HERE -->
     <nav>
         <button id="hamburgerBtn">
-            <span>&#9776;</span>
-            <span>x</span>
-        </button>
+        <span>&#9776;</span>
+        <span>X</span>
+      </button>
         <ul id="primaryNav">
             <li class="active"><a href="index.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
@@ -54,10 +48,9 @@
         </ul>
     </nav>
 
-
-    <!-- CONTENT HERE -->
+    <!-- MAIN CONTENT HERE -->
     <main>
-        <div class="boxes">
+        <div class="wrapper">
             <section class="hero">Hero with Call to Action</section>
             <section class="event">Event</section>
             <section class="weather">Weather</section>
@@ -67,11 +60,10 @@
             <section class="spotlight2">Spotlight 2</section>
         </div>
     </main>
-
-    <!-- FOOTER HERE -->
     <footer>
+        <!-- Chamber info -->
         <div class="footer-wrapper">
-            <img class="s-logo" src="images/BATAVIA_Logo2.png" alt="Batavia Chamber of Commerce" title="logo" />
+            <img class="tiny-logo" src="images/LogoOnlyT.png" alt="Batavia-Logo" title="BataviaLogo" />
 
             <div class="chamber-address">
                 Batavia Chamber of Commerce<br /> Sampoerna Strategic Square 22nd Floor, South Jakarta, <br /> D.K.I Jakarta, Indonesia
@@ -85,13 +77,12 @@
         </div>
 
         <!-- Student Info -->
-        <div class="student">
-            &copy; <span id="year "> </span>&nbsp;Batavia Chamber |
-            <span class="mine">Teddy Tjoe</span> | WDD230 - 19 |
+        <div class="student-info">
+            &copy; <span id="year"> </span>&nbsp;Batavia Chamber |
+            <span class="my_name">Teddy Tjoe</span> | WDD230 - 19 |
             <span id="lu"></span>
         </div>
     </footer>
-
     <script src="js/scripts.js"></script>
 </body>
 

@@ -4,16 +4,9 @@
     box-sizing: border-box;
 }
 
-:root {
-    --primary-color: #073ef5;
-    --secondary-color: #ffe607;
-    --accent1-color: #fac73c;
-    --accent2-color: #a3a2a1;
-}
-
 body {
     font-size: 16px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Open sans", sans-serif;
     margin: 0 auto;
     max-width: 960px;
 }
@@ -32,7 +25,7 @@ header {
 }
 
 #currentDate {
-    background-color: var(--accent2-color);
+    background-color: #14213d;
     text-align: center;
     padding: 0.3em;
     margin-bottom: 5px;
@@ -49,20 +42,20 @@ h2 {
 h1 {
     font-size: 1.4em;
     padding: 0.4em 0 0 0;
-    font-family: "Marcellus", serif;
+    font-family: "Source Serif 4", sans-serif;
     text-align: center;
 }
 
 h2 {
     padding: 0 0 0.5em 0;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Source Serif 4", sans-serif;
     font-size: 1em;
 }
 
 h3,
 h4,
 h5 {
-    font-family: "Marcellus", serif;
+    font-family: "Open sans", sans-serif;
     letter-spacing: 3px;
 }
 
@@ -73,7 +66,7 @@ h5 {
 
 hr {
     height: 2px;
-    background-color: var(--accent1-color);
+    background-color: #799bf7;
     border: none;
 }
 
@@ -102,14 +95,13 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: var(--accent1-color);
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    box-shadow: 0px 5px 10px var(--accent2-color);
+    box-shadow: 0px 5px 10px #333;
 }
 
 nav ul li a {
@@ -122,19 +114,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: var(--accent1-color);
-    color: rgb(5, 0, 0);
+    background-color: #3e5c76;
+    color: #ffffff;
 }
 
 nav ul li.active a {
-    background-color: var(--secondary-color);
-    color: #fff;
+    background-color: #f2cc8f;
+    color: #000000;
     margin: 0;
 }
 
 a {
-    color: black;
+    color: #e85d04;
     text-decoration: none;
+    font-family: "Open sans", sans-serif;
 }
 
 nav ul {
@@ -167,7 +160,7 @@ nav ul div {
 }
 
 nav ul div img:hover {
-    filter: drop-shadow(1px 1px 2px var(--accent1-color));
+    filter: drop-shadow(1px 1px 2px #012447);
 }
 
 .icon {
@@ -210,7 +203,7 @@ main section h3 {
 /*----------- FOOTER --------------*/
 
 footer {
-    background-color: var(--accent1-color);
+    background-color: #7cbbf3;
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
@@ -230,11 +223,11 @@ footer img {
     margin-bottom: 10px;
 }
 
-.student {
+.student-info {
     font-size: 0.7em;
 }
 
-.mine {
+.my_name {
     letter-spacing: 2px;
     font-size: 1.2em;
 }
