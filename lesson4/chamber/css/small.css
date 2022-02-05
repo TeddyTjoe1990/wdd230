@@ -24,16 +24,6 @@ header {
     flex-flow: column wrap;
 }
 
-#currentDate {
-    background-color: #14213d;
-    text-align: center;
-    padding: 0.3em;
-    margin-bottom: 5px;
-    border: 1px solid #eee;
-    font-size: 0.8em;
-    color: #fff;
-}
-
 header h1,
 h2 {
     margin: 0;
@@ -41,7 +31,7 @@ h2 {
 
 h1 {
     font-size: 1.4em;
-    padding: 0.4em 0 0 0;
+    padding: 0.4em 5px 5px 0;
     font-family: "Source Serif 4", sans-serif;
     text-align: center;
 }
@@ -95,13 +85,14 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
+    color: #3e5c76;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    box-shadow: 0px 5px 10px #333;
+    box-shadow: 0px 2px 2px #333;
 }
 
 nav ul li a {
@@ -128,6 +119,7 @@ a {
     color: #e85d04;
     text-decoration: none;
     font-family: "Open sans", sans-serif;
+    font-weight: 600;
 }
 
 nav ul {
@@ -154,13 +146,35 @@ nav ul.open {
     display: block;
 }
 
-nav ul div {
-    text-align: center;
-    padding: 0.5em 0;
+
+/*----------- DATE --------------*/
+
+.date-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
 }
 
-nav ul div img:hover {
-    filter: drop-shadow(1px 1px 2px #012447);
+#currentDate {
+    background-color: #fff;
+    justify-self: center;
+    padding: 0.5em 1em;
+    border-radius: 5px 5px 0 0;
+    border: 2px dotted #3e5c76;
+    font-size: 0.8em;
+    color: #000;
+}
+
+.social {
+    justify-self: flex-end;
+    padding: 0 0.5em;
+    margin: 2px;
+    align-self: center;
+}
+
+.social img:hover {
+    filter: drop-shadow(1px 1px 2px #3e5c76);
 }
 
 .icon {
@@ -175,20 +189,48 @@ main {
     text-align: center;
 }
 
+
+/*----------- MESSAGE --------------*/
+
+.announcement {
+    display: block;
+    background-color: #799bf7;
+    padding: 1rem;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+div.show {
+    display: block;
+}
+
+div.hide {
+    display: none;
+}
+
 main section {
     padding: 1em;
     margin: 0.5em;
     height: 5em;
     border: 1px solid #eee;
     background-color: #e9e7e7;
-}
-
-main section.placeholder {
-    height: auto;
-}
-
-main section h3 {
+    font-weight: 550;
+    height: 100%;
     text-align: left;
+}
+
+main section a {
+    letter-spacing: 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Open sans", sans-serif;
+}
+
+section h3 {
+    font-size: 0.9rem;
 }
 
 .align-left {
@@ -197,6 +239,143 @@ main section h3 {
 
 .bold {
     font-weight: 700;
+}
+
+
+/*-- HERO MAIN SECTION -- */
+
+.hero {
+    padding: 0;
+    margin: 0.2rem;
+    position: relative;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.536);
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    padding: 0.7rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+}
+
+section button,
+.hero .btn,
+.join .btn {
+    background-color: #e85d04;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0.5rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0 0 5px #799bf7;
+}
+
+
+/*-- EVENT MAIN SECTION -- */
+
+.event {
+    padding: 0;
+    text-align: center;
+}
+
+.event h4 {
+    letter-spacing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.event h2 {
+    padding-top: 1rem;
+}
+
+.event img {
+    width: 30%;
+    padding-bottom: 1rem;
+}
+
+
+/*-- WEATHER MAIN SECTION -- */
+
+section.weather {
+    text-align: center;
+}
+
+.weather img {
+    margin-left: 50px;
+    padding-right: 5px;
+    margin-top: 0.7rem;
+}
+
+.weather h2 {
+    margin: 0;
+}
+
+.weather h3 {
+    font-size: 1.0rem;
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 80px;
+}
+
+
+/*-- JOIN MAIN SECTION -- */
+
+.join {
+    text-align: center;
+}
+
+.join button {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 6px #e85d04;
+    margin-bottom: 1rem;
+}
+
+
+/*-- NEWS MAIN SECTION -- */
+
+.news h2 {
+    margin-top: 0;
+}
+
+
+/*-- SPOTLIGHT MAIN SECTION -- */
+
+.spotlight1 h2,
+.spotlight2 h2 {
+    color: #000;
+    margin-top: 0;
+}
+
+.spotlight1,
+.spotlight2 {
+    background-image: linear-gradient(#f2b42d27, #a16f03);
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.spotlight1 img,
+.spotlight2 img {
+    width: 40%;
 }
 
 
