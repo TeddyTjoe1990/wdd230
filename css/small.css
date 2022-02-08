@@ -18,8 +18,8 @@ header {
     text-align: center;
 }
 
-header img {
-    width: 80px;
+.header-img {
+    width: 100px;
     height: auto;
 }
 
@@ -43,7 +43,7 @@ h2 {
 
 .content h1 {
     grid-column: 1;
-    grid-row: 2
+    grid-row: 1;
 }
 
 header,

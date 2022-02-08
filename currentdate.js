@@ -31,4 +31,4 @@ const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
 // ****************************
 // using querySelector
-const date2 = document.querySelector('#currentdate2');
+const date2 = document.querySelector("#currentdate2");
