@@ -33,9 +33,9 @@
 <body>
     <header>
         <picture>
-            <source media="(max-width: 320px)" srcset="images/logos/Logo50.webp" />
-            <source media="(max-width: 600px)" srcset="images/logos/Logo80.webp" />
-            <source media="(max-width: 900px)" srcset="images/logos/Logo100.webp" />
+            <source media="(max-width: 320px)" src="images/logos/Logo50.webp" />
+            <source media="(max-width: 600px)" src="images/logos/Logo80.webp" />
+            <source media="(max-width: 900px)" src="images/logos/Logo100.webp" />
             <img src="images/logos/Logo100.webp" alt="Batavia Chamber of Commerce" title="BataviaLogo" />
             <h1>Batavia Chamber of Commerce</h1>
             <h2>Your Trusted Chamber</h2>
@@ -47,9 +47,9 @@
         <div id="currentDate"></div>
         <div class="social">
             <a href="#">
-                <img class="icon" src="images/icon_fb.png" alt="Batavia Chamber Facebook" /></a>
+                <img class="icon" src="social/icon_fb.png" alt="Batavia Chamber Facebook" /></a>
             <a href="#">
-                <img class="icon" src="images/icon_linkedin.png" alt="Batavia Chamber Linkedin" /></a>
+                <img class="icon" src="social/icon_linkedin.png" alt="Batavia Chamber Linkedin" /></a>
         </div>
     </div>
 
@@ -73,6 +73,15 @@
         <div id="message" class="announcement">
             &#129309; &nbsp; Come join us for the chamber meet and greet Saturday at 6:00PM.
         </div>
+
+        <!-- Responsive Image -->
+        <picture class="herosrc">
+            <source media="(max-width: 320px)" src="images/herosrc/wdd230S.jpg" />
+            <source media="(max-width: 768px)" src="images/herosrc/wdd230M.jpg" />
+            <source media="(max-width: 1000px)" src="images/herosrc/wdd230L.jpg" />
+            <img src="images/herosrc/wdd230L-org.jpg" alt="HeroImage" />
+        </picture>
+
         <div class="wrapper">
             <section class="hero">
                 <img class="img-hero" src="images/SSSQ2.jpg" alt="Batavia Chamber Hero Img" title="HQ" />
