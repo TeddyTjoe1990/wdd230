@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+sans&family=Source+Serif+4&display=swap" rel="stylesheet" />
+
     <!-- STYLE SHEETS -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/small.css" />
@@ -31,10 +32,14 @@
 
 <body>
     <header>
-        <img src="images/LogoOnlyT.png" alt="Batavia-Logo" title="BataviaLogo" />
-
-        <h1>Batavia Chamber of Commerce</h1>
-        <h2>Your Trusted Chamber</h2>
+        <picture>
+            <source media="(max-width: 320px)" srcset="images/logos/Logo50.webp" />
+            <source media="(max-width: 600px)" srcset="images/logos/Logo80.webp" />
+            <source media="(max-width: 900px)" srcset="images/logos/Logo100.webp" />
+            <img src="images/logos/Logo100.webp" alt="Batavia Chamber of Commerce" title="BataviaLogo" />
+            <h1>Batavia Chamber of Commerce</h1>
+            <h2>Your Trusted Chamber</h2>
+        </picture>
     </header>
 
     <!-- CURRENT DATE HERE -->
@@ -57,9 +62,9 @@
       </button>
         <ul id="primaryNav">
             <li class="active" target="_blank"><a href="index.html">Discover</a></li>
-            <li><a href="directory.html" target="_blank">Directory</a></li>
-            <li><a href="join.html" target="_blank">Join</a></li>
-            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="#" target="_blank">Directory</a></li>
+            <li><a href="#" target="_blank">Join</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
         </ul>
     </nav>
 
@@ -70,11 +75,11 @@
         </div>
         <div class="wrapper">
             <section class="hero">
-                <img class="img-hero" src="images/SSSQ2.jpg" alt="Batavia Chamber Hero Img" title="Priok Port" />
+                <img class="img-hero" src="images/SSSQ2.jpg" alt="Batavia Chamber Hero Img" title="HQ" />
                 <div class="hero-content">
                     <h2>Welcome to the Batavia Chamber of Commerce!</h2>
                     <p>We connect the trading community and build lasting business networks.</p>
-                    <button class="btn" onclick="window.location.href='join.html'; target='_blank ';">Join Us!</button>
+                    <button class="btn" onclick="window.location.href='join.html' ;target='_blank ';">Join Us!</button>
                 </div>
             </section>
 
@@ -129,7 +134,7 @@
     <footer>
         <!-- Chamber info -->
         <div class=" footer-wrapper ">
-            <img class="tiny-logo " src="images/LogoOnlyT.png " alt="Batavia-Logo " title="BataviaLogo " />
+            <img class="tiny-logo " src="images/LogoOnlyT.webp" alt="Batavia-Logo " title="BataviaLogo " />
 
             <div class="chamber-address ">
                 Batavia Chamber of Commerce<br /> Sampoerna Strategic Square 22nd Floor, South Jakarta, <br /> D.K.I Jakarta, Indonesia
@@ -150,6 +155,7 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>
