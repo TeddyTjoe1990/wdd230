@@ -2,9 +2,60 @@
     .wrapper {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-areas: "event hero s1" "weather hero s2" "join news news";
+        grid-gap: 1px;
     }
     .hero {
-        height: 97%;
+        background-image: url("../images/mainpict/HQSQ.jpg");
+        background-position: center 35%;
+    }
+    .hero-content {
+        margin-top: 2rem;
+    }
+    section h2 {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+    section h3,
+    section p,
+    section a {
+        font-size: 0.9rem;
+    }
+    section h3 {
+        letter-spacing: 0;
+        font-size: 1.2rem;
+    }
+    .event {
+        padding: 5px;
+        font-size: 1em;
+    }
+    .event img {
+        float: none;
+        margin: 0;
+    }
+    .event h3 {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .event h4 {
+        font-size: 0.8rem;
+    }
+    .event img {
+        width: 40%;
+        margin-top: 0.7rem;
+    }
+    .spotlight1 img,
+    .spotlight2 img {
+        width: 40%;
+        padding-top: 1rem;
+    }
+    .spotlight1 em,
+    .spotlight2 em {
+        color: #000;
+    }
+    /*----------- DATE --------------*/
+    .social {
+        padding: 0;
+        margin: 0;
     }
     /*----------- NAVIGATION --------------*/
     nav ul {
@@ -26,6 +77,9 @@
     .icon {
         width: 25px;
         margin-left: 1em;
+    }
+    footer {
+        margin-top: 5px;
     }
     footer div.footer-wrapper {
         grid-template-columns: 0.3fr 2.7fr 1fr;

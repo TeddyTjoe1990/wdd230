@@ -30,7 +30,7 @@ h2 {
 }
 
 h1 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     padding: 0.4em 5px 5px 0;
     font-family: "Source Serif 4", sans-serif;
     text-align: center;
@@ -39,7 +39,6 @@ h1 {
 h2 {
     padding: 0 0 0.5em 0;
     font-family: "Source Serif 4", sans-serif;
-    font-size: 1em;
 }
 
 h3,
@@ -68,7 +67,7 @@ footer {
     margin: 0 auto;
 }
 
-header img {
+header picture img {
     height: 80px;
     padding: 0.5em;
 }
@@ -118,8 +117,8 @@ nav ul li.active a {
 a {
     color: #e85d04;
     text-decoration: none;
-    font-family: "Open sans", sans-serif;
     font-weight: 600;
+    letter-spacing: 2px;
 }
 
 nav ul {
@@ -200,18 +199,29 @@ main {
     letter-spacing: 2px;
 }
 
-div.show {
+.show {
     display: block;
 }
 
-div.hide {
+.hide {
     display: none;
 }
+
+
+/*----------- w06 HERO SRC IMAGE----------*/
+
+.herosrc img {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+/*----------- MAIN SECTION --------------*/
 
 main section {
     padding: 1em;
     margin: 0.5em;
-    height: 5em;
     border: 1px solid #eee;
     background-color: #e9e7e7;
     font-weight: 550;
@@ -233,6 +243,10 @@ section h3 {
     font-size: 0.9rem;
 }
 
+section.placeholder h3 {
+    font-size: 1.2rem;
+}
+
 .align-left {
     text-align: left;
 }
@@ -245,27 +259,22 @@ section h3 {
 /*-- HERO MAIN SECTION -- */
 
 .hero {
-    padding: 0;
-    margin: 0.2rem;
-    position: relative;
-}
-
-.img-hero {
-    width: 100%;
-    height: auto;
+    background-image: url("../images/mainpict/HQSQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .hero-content {
-    background-color: rgba(255, 255, 255, 0.536);
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: 12px;
-    left: 20px;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 1rem 2vw;
     text-align: center;
-    width: 90%;
-    height: auto;
-    padding: 0.7rem;
+    width: 80%;
+    margin: 0.5rem 10% auto 10%;
+}
+
+.btn:active {
+    box-shadow: 0 0 5px #f10404;
 }
 
 .hero-content p {
@@ -277,14 +286,8 @@ section button,
 .join .btn {
     background-color: #e85d04;
     border-radius: 5px;
-    color: #fff;
-    padding: 0.5rem;
+    padding: 0.5rem 1vw;
     border: 0;
-    cursor: pointer;
-}
-
-.btn:active {
-    box-shadow: 0 0 5px #799bf7;
 }
 
 
@@ -310,15 +313,36 @@ section button,
     padding-bottom: 1rem;
 }
 
+.event p {
+    padding: 0 10px;
+}
 
-/*-- WEATHER MAIN SECTION -- */
+
+/*-- MAIN SECTION - WEATHER -- */
 
 section.weather {
     text-align: center;
 }
 
+.weathervalue {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.tempWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast {
+    margin-top: 0.4rem;
+    padding: 0;
+}
+
 .weather img {
-    margin-left: 50px;
     padding-right: 5px;
     margin-top: 0.7rem;
 }
@@ -328,11 +352,9 @@ section.weather {
 }
 
 .weather h3 {
-    font-size: 1.0rem;
-    position: relative;
-    float: right;
-    top: 30px;
-    right: 80px;
+    align-self: flex-end;
+    font-size: 1.5rem;
+    margin: 2rem 0 0 0.6rem;
 }
 
 

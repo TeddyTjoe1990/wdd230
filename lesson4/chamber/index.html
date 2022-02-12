@@ -36,10 +36,11 @@
             <source media="(max-width: 320px)" src="images/logos/Logo50.webp" />
             <source media="(max-width: 600px)" src="images/logos/Logo80.webp" />
             <source media="(max-width: 900px)" src="images/logos/Logo100.webp" />
-            <img src="images/logos/Logo100.webp" alt="Batavia Chamber of Commerce" title="BataviaLogo" />
-            <h1>Batavia Chamber of Commerce</h1>
-            <h2>Your Trusted Chamber</h2>
+
         </picture>
+        <img src="images/logos/Logo100.webp" alt="Batavia Chamber of Commerce" title="BataviaLogo" />
+        <h1>Batavia Chamber of Commerce</h1>
+        <h2>Your Trusted Chamber</h2>
     </header>
 
     <!-- CURRENT DATE HERE -->
@@ -47,9 +48,9 @@
         <div id="currentDate"></div>
         <div class="social">
             <a href="#">
-                <img class="icon" src="social/icon_fb.png" alt="Batavia Chamber Facebook" /></a>
+                <img class="icon" src="/lesson4/chamber/images/social/icon_fb.png" alt="Batavia Chamber Facebook" /></a>
             <a href="#">
-                <img class="icon" src="social/icon_linkedin.png" alt="Batavia Chamber Linkedin" /></a>
+                <img class="icon" src="/lesson4/chamber/images/social/icon_linkedin.png" alt="Batavia Chamber Linkedin" /></a>
         </div>
     </div>
 
@@ -68,7 +69,7 @@
         </ul>
     </nav>
 
-    <!-- MAIN CONTENT HERE -->
+    <!-- MAIN -->
     <main>
         <div id="message" class="announcement">
             &#129309; &nbsp; Come join us for the chamber meet and greet Saturday at 6:00PM.
@@ -76,15 +77,14 @@
 
         <!-- Responsive Image -->
         <picture class="herosrc">
-            <source media="(max-width: 320px)" src="images/herosrc/wdd230S.jpg" />
-            <source media="(max-width: 768px)" src="images/herosrc/wdd230M.jpg" />
-            <source media="(max-width: 1000px)" src="images/herosrc/wdd230L.jpg" />
-            <img src="images/herosrc/wdd230L-org.jpg" alt="HeroImage" />
+            <source media="(max-width: 320px)" srcset="/lesson4/chamber/images/herosrc/wdd230S.jpg">
+            <source media="(max-width: 768px)" srcset="/lesson4/chamber/images/herosrc/wdd230M.jpg">
+            <source media="(max-width: 1000px)" srcset="/lesson4/chamber/images/herosrc/wdd230L.jpg">
+            <img src="/lesson4/chamber/images/herosrc/wdd230L.jpg" alt="HeroImage" />
         </picture>
 
         <div class="wrapper">
             <section class="hero">
-                <img class="img-hero" src="images/SSSQ2.jpg" alt="Batavia Chamber Hero Img" title="HQ" />
                 <div class="hero-content">
                     <h2>Welcome to the Batavia Chamber of Commerce!</h2>
                     <p>We connect the trading community and build lasting business networks.</p>
@@ -94,7 +94,12 @@
 
             <section class="event">
                 <h2>Local Event</h2>
-                <img src="images/BPD-Logo.png" alt="Batavia Park District" />
+                <picture>
+                    <source media="(max-width: 320px)" srcset="lesson4/chamber/images/hero-asset/BPD60.png" />
+                    <source media="(max-width: 768px)" srcset="lesson4/chamber/images/hero-asset/BPD80.png" />
+                    <source media="(max-width: 1000px)" srcset="lesson4/chamber/images/hero-asset/BPD100.png" />
+                </picture>
+                <img src="/lesson4/chamber/images/hero-asset/BPDLogo.png" alt="Batavia Park District" />
                 <h3>BATAVIA PARK DISTRICT</h3>
                 <h4>March 20 2022</h4>
 
@@ -105,12 +110,22 @@
 
             <section class="weather">
                 <h2>Weather</h2>
-                <img src="images/weather.png" alt="Weather" width="100" />
-                <h3>28&#176;C</h3>
-                Partly Cloudy
+                <div class="weathervalue">
+                    <picture>
+                        <source media="(max-width: 320px)" srcset="/lesson4/chamber/images/weather/weather60.png" />
+                        <source media="(max-width: 768px)" srcset="/lesson4/chamber/images/weather/weather70.png" />
+                        <source media="(max-width: 1000px)" srcset="/lesson4/chamber/images/weather/weather90.png" />
+                        <img src="/lesson4/chamber/images/weather/weather90.png" alt="Weather" width="100" />
+                    </picture>
+
+                    <div class="tempweather">
+                        <h3><span id="temp">28</span>&deg;F</h3>
+                        <p class="forecast">Cloudy</p>
+                    </div>
+                </div>
                 <hr />
-                <b>Wind Speed:</b> 2.6 km/h<br />
-                <b>Humidity</b> 86%
+                <b>Wind Speed: </b><span id="speed">58</span>mph<br />
+                <b>Wind Chill: </b><span id="chill"></span>
             </section>
 
             <section class="news">
@@ -120,21 +135,33 @@
             </section>
 
             <section class="join">
-                <button class="btn" onclick="window.location.href='join.html'; target='_blank '; ">
-                    Join Now!
-                </button> Discover how to join the chamber of commerce and how it will give a benefit to your business!
+                <button class="btn" onclick="window.location.href='join.html';">
+                  Join Now!
+                </button> Discover how to join the chamber of commerce and how it will benefit your business!
             </section>
 
             <section class="spotlight1 ">
                 <h2>NDE Express</h2>
-                <img src="images/NDE_C&C.png " alt="Spotlight 1 " title="NDE logo " />
+                <picture>
+                    <source media="(max-width: 320px)" srcset="/lesson4/chamber/images/spotlight1/NDE_C&C85.png" />
+                    <source media="(max-width: 768px)" srcset="/lesson4/chamber/images/spotlight1/NDE_C&C108.png" />
+                    <source media="(max-width: 1000px)" srcset="/lesson4/chamber/images/spotlight1/NDE_C&C136.png" />
+                    <img src="/lesson4/chamber/images/spotlight1/NDE_C&C.png" alt="Spotlight 1 " title="NDE logo " />
+                </picture>
+
                 <p><em>"We sent it faster! "</em></p>
                 <hr /> info@NDCExpress.com<br /> +6221 758 4327
             </section>
 
             <section class="spotlight2 ">
                 <h2>Suvarna Sutera</h2>
-                <img src="images/Suvarna-Sutera.png " alt="Spotlight 2 " title="SuvTra logo " />
+                <picture>
+                    <source media="(max-width: 320px)" srcset="/lesson4/chamber/images/spotlight2/Suvarna-Sutera85.png" />
+                    <source media="(max-width: 768px)" srcset="/lesson4/chamber/images/spotlight2/Suvarna-Sutera108.png" />
+                    <source media="(max-width: 1000px)" srcset="/lesson4/chamber/images/spotlight2/Suvarna-Sutera136.png" />
+                    <img src="/lesson4/chamber/images/spotlight2/Suvarna-Sutera.png" alt="Spotlight 2 " title="SuvTra logo " />
+                </picture>
+
                 <p><em>-Better Living, Better Life-</em></p>
                 <hr /> hello@suvarna-sutera.co.id<br /> +62 21 777 8588
             </section>
@@ -143,7 +170,7 @@
     <footer>
         <!-- Chamber info -->
         <div class=" footer-wrapper ">
-            <img class="tiny-logo " src="images/LogoOnlyT.webp" alt="Batavia-Logo " title="BataviaLogo " />
+            <img class="tiny-logo " src="/lesson4/chamber/images/logos/Logo.webp" alt="Batavia-Logo " title="BataviaLogo " />
 
             <div class="chamber-address ">
                 Batavia Chamber of Commerce<br /> Sampoerna Strategic Square 22nd Floor, South Jakarta, <br /> D.K.I Jakarta, Indonesia

@@ -13,6 +13,7 @@
     }
     h2 {
         font-size: 1em;
+        grid-row: 2;
     }
     header img {
         height: 100px;
@@ -28,8 +29,44 @@
         grid-template-rows: auto;
         grid-template-areas: "hero hero" "news news" "s1 s2" "join join" "event weather";
     }
+    section {
+        align-items: start;
+    }
+    section h2 {
+        font-size: 1.4rem;
+    }
+    section h3,
+    section p {
+        font-size: 1.1rem;
+    }
+    section h4 {
+        letter-spacing: 0;
+        font-size: 1.1rem;
+    }
+    section a {
+        font-size: 1rem;
+    }
     .hero {
         grid-area: hero;
+        background-image: url("../images/mainpict/HQSQ.jpg");
+        background-position: center 80%;
+    }
+    .hero button a {
+        font-size: 1rem;
+        background-color: gold;
+    }
+    .event img {
+        float: left;
+        margin: 0.2rem 0 0 2rem;
+    }
+    .event h3 {
+        margin: 0.8rem 0 1.25rem 0;
+    }
+    .event p {
+        padding: 0 1rem;
+    }
+    .join button a {
+        font-size: 1.2rem;
     }
     .news {
         grid-area: news;
