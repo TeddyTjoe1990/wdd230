@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="transition.css" />
+</head>
+
+<body>
+    <div class=" header ">
+        <h1>Using CSS transitions</h1>
+        <p>CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. For example, if you
+            change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.</p>
+        <p>
+            Animations that involve transitioning between two states are often called implicit transitions as the states in between the start and final states are implicitly defined by the browser.
+        </p>
+        <p>
+            CSS transitions let you decide which properties to animate (by listing them explicitly), when the animation will start (by setting a delay), how long the transition will last (by setting a duration), and how the transition will run (by defining a timing
+            function, e.g. linearly or quick at the beginning, slow at the end).
+        </p>
+    </div>
+
+    <div class="body ">
+        <h2>Defining transitions</h2>
+        <p>CSS Transitions are controlled using the shorthand transition property. This is the best way to configure transitions, as it makes it easier to avoid out of sync parameters, which can be very frustrating to have to spend lots of time debugging
+            in CSS.</p>
+        <p>You can control the individual components of the transition with the following sub-properties:</p>
+
+        <details class="style4 ">
+            <summary>Transition-property</summary>
+            <div class="content ">
+                <p class="c4 ">
+                    Specifies the name or names of the CSS properties to which transitions should be applied. Only properties listed here are animated during transitions; changes to all other properties occur instantaneously as usual.
+                </p>
+                <a class="target1">Hover over me</a>
+            </div>
+        </details>
+
+        <details class="style4 ">
+            <summary>Transition-duration</summary>
+            <div class="content ">
+                <p class="c4 ">
+                    Specifies the duration over which transitions should occur. You can specify a single duration that applies to all properties during the transition, or multiple values to allow each property to transition over a different period of time.
+                </p>
+                <div class="box duration-1">0.5 seconds</div>
+
+                <div class="box duration-2">2 seconds</div>
+
+                <div class="box duration-3">4 seconds</div>
+
+                <button id="change">Change</button>
+                <script src="dura.js"></script>
+            </div>
+        </details>
+
+        <details class="style4 ">
+            <summary>Transition-timing-function</summary>
+            <div class="content ">
+                <p class="c4 ">
+                    Specifies a function to define how intermediate values for properties are computed. Timing functions determine how intermediate values of the transition are calculated. Most timing functions can be specified by providing the graph of the corresponding
+                    function, as defined by four points defining a cubic bezier. You can also choose easing from Easing Functions Cheat Sheet.
+                </p>
+                <h3>Cubic-Bezier examples</h3>
+
+            </div>
+        </details>
+    </div>
+
+</body>
+
+</html>
