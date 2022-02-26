@@ -39,6 +39,7 @@ h1 {
 h2 {
     padding: 0 0 0.5em 0;
     font-family: "Source Serif 4", sans-serif;
+    font-size: 1em;
 }
 
 h3,
@@ -455,7 +456,7 @@ footer img {
 }
 
 .cambs_imgs img:hover {
-    box-shadow: 0 0 2rem var(--accent2-color);
+    box-shadow: 0 0 2rem #a3a2a1;
 }
 
 .cambs_img_caption {
