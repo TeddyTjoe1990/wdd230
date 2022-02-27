@@ -1,0 +1,84 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --back: rgb(0, 2, 146);
+    --back2: rgba(9, 207, 108, 0.5);
+    --foredark: hsla(0, 0%, 10%, 1);
+    --forelight: rgb(0, 0, 0);
+    --border: hsl(0, 0%, 20%);
+    --borderlight: hsl(0, 0%, 33%);
+    --shadow: hsl(120, 1%, 32%);
+    --zebra: rgb(3, 235, 243);
+}
+
+body {
+    font-size: 16px;
+}
+
+table {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 0.9rem;
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 8px 10px 10px var(--shadow);
+    border-collapse: collapse;
+    overflow-x: auto;
+    font-size: 1rem;
+}
+
+tr:first-child th,
+tfoot {
+    background: linear-gradient(320deg, #b90000, #dfc800, #ee0202);
+    color: var(--forelight);
+}
+
+tr:nth-child(2) th {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+tr:first-child th {
+    font-size: 1.9rem;
+    padding: 1rem;
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+
+th,
+tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: var(--back);
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
+
+tbody tr:nth-child(4) td:nth-child(3) {
+    color: #fff;
+}
+
+tbody tr:nth-child(5) td:nth-child(1) {
+    font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra2);
+}
+
+tfoot {
+    font-size: 0.7rem;
+}
