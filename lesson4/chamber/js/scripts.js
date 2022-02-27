@@ -46,8 +46,8 @@ if (dayNum == 1 || dayNum == 2) {
 // Footer date display
 document.querySelector("#year").textContent = year;
 
-document.getElementById("lu").textContent =
-    " Last Updated: " + document.lastModified;
+document.getElementById("update").textContent = " Last Updated: " + document.lastModified;
+
 
 // Hamburger Nav
 function toggleMenu() {

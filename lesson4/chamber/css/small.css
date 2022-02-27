@@ -437,15 +437,6 @@ footer img {
 
 /* DISCOVER - Lazy Load Images */
 
-.cambs_imgs img[data-src] {
-    filter: blur(0.2em);
-}
-
-.cambs_imgs img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
-
 .cambs_imgs {
     display: grid;
     grid-template-columns: 1fr;
@@ -456,7 +447,7 @@ footer img {
 }
 
 .cambs_imgs img:hover {
-    box-shadow: 0 0 2rem #a3a2a1;
+    box-shadow: 0 0 2rem #023047;
 }
 
 .cambs_img_caption {
