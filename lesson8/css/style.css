@@ -82,3 +82,9 @@ tbody tr:nth-child(odd) {
 tfoot {
     font-size: 0.7rem;
 }
+
+@media only screen and (min-width: 32.5em) {
+    table {
+        font-size: 1.1rem;
+    }
+}
