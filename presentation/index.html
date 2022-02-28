@@ -8,7 +8,10 @@
     <title>CSS Transition</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/transition.css" />
+    <link rel="stylesheet" href="css/duration.css" />
+    <link rel="stylesheet" href="css/tf.css" />
     <link rel="stylesheet" href="css/tf2.css" />
+    <link rel="stylesheet" href="css/delay.css" />
 </head>
 
 <body>
@@ -40,24 +43,25 @@
                 <a class="target1 ">Hover over me</a>
             </div>
         </details>
-
+        <br>
         <details class="style4 ">
             <summary>Transition-duration</summary>
             <div class="content ">
                 <p class="c4 ">
                     Specifies the duration over which transitions should occur. You can specify a single duration that applies to all properties during the transition, or multiple values to allow each property to transition over a different period of time.
                 </p>
-                <div class="box duration-1 ">0.5 seconds</div>
+                <div class="box duration-1">0.5 seconds</div>
 
-                <div class="box duration-2 ">2 seconds</div>
+                <div class="box duration-2">2 seconds</div>
 
-                <div class="box duration-3 ">4 seconds</div>
+                <div class="box duration-3">4 seconds</div>
 
-                <button id="change ">Change</button>
-                <script src="js/dura.js "></script>
+                <button id="change">Change</button>
+
+                <script src="js/duration.js"></script>
             </div>
         </details>
-
+        <br>
         <details class="style4 ">
             <summary>Transition-timing-function</summary>
             <div class="content ">
@@ -84,6 +88,22 @@
                     <div class="step-end ">step-end</div>
                     <script src="js/tf2.js "></script>
                 </div>
+            </div>
+        </details>
+        <br>
+        <details class="style4 ">
+            <summary>Transition-delay</summary>
+            <div class="content ">
+                <p class="c4 ">
+                    Defines how long to wait between the time a property is changed and the transition actually begins.
+                </p>
+                <p>The delay may be zero, positive, or negative: </p>
+                <ul>
+                    <li>A value of <code>0s</code> (or <code>0ms</code>) will begin the transition effect immediately.</li>
+                    <li>A positive value will delay the start of the transition effect for the given length of time.</li>
+                    <li>A negative value will begin the transition effect immediately, and partway through the effect. In other words, the effect will be animated as if it had already been running for the given length of time.</li>
+                </ul>
+
             </div>
         </details>
     </div>
