@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Transition</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/transition.css" />
+
     <link rel="stylesheet" href="css/duration.css" />
     <link rel="stylesheet" href="css/tf.css" />
     <link rel="stylesheet" href="css/tf2.css" />
@@ -34,15 +34,7 @@
             in CSS.</p>
         <p>You can control the individual components of the transition with the following sub-properties:</p>
 
-        <details class="style4 ">
-            <summary>Transition-property</summary>
-            <div class="content ">
-                <p class="c4 ">
-                    Specifies the name or names of the CSS properties to which transitions should be applied. Only properties listed here are animated during transitions; changes to all other properties occur instantaneously as usual.
-                </p>
-                <a class="target1 ">Hover over me</a>
-            </div>
-        </details>
+        <a href="html/transition-pro.html" target="_blank"><code>Transition-property</code></a>
         <br>
         <details class="style4 ">
             <summary>Transition-duration</summary>
@@ -58,7 +50,7 @@
 
                 <button id="change">Change</button>
 
-                <script src="js/duration.js"></script>
+                <script src="js/button.js"></script>
             </div>
         </details>
         <br>
@@ -103,6 +95,14 @@
                     <li>A positive value will delay the start of the transition effect for the given length of time.</li>
                     <li>A negative value will begin the transition effect immediately, and partway through the effect. In other words, the effect will be animated as if it had already been running for the given length of time.</li>
                 </ul>
+                <div class="box delay-1">0.5 seconds</div>
+
+                <div class="box delay-2">2 seconds</div>
+
+                <div class="box delay-3">4 seconds</div>
+
+                <button id="change2">Change</button>
+                <script src="js/button2.js "></script>
 
             </div>
         </details>
