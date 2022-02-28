@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Transition</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="transition.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/transition.css" />
+    <link rel="stylesheet" href="css/tf2.css" />
 </head>
 
 <body>
@@ -18,9 +19,9 @@
         <p>
             Animations that involve transitioning between two states are often called implicit transitions as the states in between the start and final states are implicitly defined by the browser.
         </p>
-        <p>
-            CSS transitions let you decide which properties to animate (by listing them explicitly), when the animation will start (by setting a delay), how long the transition will last (by setting a duration), and how the transition will run (by defining a timing
-            function, e.g. linearly or quick at the beginning, slow at the end).
+        <img src="/presentation/transitionsprinciple.png " alt="css transitioning " title="CSS Transition " />
+        <p> CSS transitions let you decide which properties to animate (by listing them explicitly), when the animation will start (by setting a delay), how long the transition will last (by setting a duration), and how the transition will run (by defining
+            a timing function, e.g. linearly or quick at the beginning, slow at the end).
         </p>
     </div>
 
@@ -36,7 +37,7 @@
                 <p class="c4 ">
                     Specifies the name or names of the CSS properties to which transitions should be applied. Only properties listed here are animated during transitions; changes to all other properties occur instantaneously as usual.
                 </p>
-                <a class="target1">Hover over me</a>
+                <a class="target1 ">Hover over me</a>
             </div>
         </details>
 
@@ -46,14 +47,14 @@
                 <p class="c4 ">
                     Specifies the duration over which transitions should occur. You can specify a single duration that applies to all properties during the transition, or multiple values to allow each property to transition over a different period of time.
                 </p>
-                <div class="box duration-1">0.5 seconds</div>
+                <div class="box duration-1 ">0.5 seconds</div>
 
-                <div class="box duration-2">2 seconds</div>
+                <div class="box duration-2 ">2 seconds</div>
 
-                <div class="box duration-3">4 seconds</div>
+                <div class="box duration-3 ">4 seconds</div>
 
-                <button id="change">Change</button>
-                <script src="dura.js"></script>
+                <button id="change ">Change</button>
+                <script src="js/dura.js "></script>
             </div>
         </details>
 
@@ -64,8 +65,25 @@
                     Specifies a function to define how intermediate values for properties are computed. Timing functions determine how intermediate values of the transition are calculated. Most timing functions can be specified by providing the graph of the corresponding
                     function, as defined by four points defining a cubic bezier. You can also choose easing from Easing Functions Cheat Sheet.
                 </p>
-                <h3>Cubic-Bezier examples</h3>
+                <div class="parent ">
+                    <div class="ease ">ease</div>
+                    <div class="easein ">ease-in</div>
+                    <div class="easeout ">ease-out</div>
+                    <div class="easeinout ">ease-in-out</div>
+                    <div class="linear ">linear</div>
+                    <div class="cb ">cubic-bezier(0.2,-2,0.8,2)</div>
+                    <script src="js/tf.js "></script>
+                </div>
 
+                <div class="parentt ">
+                    <div class="jump-start ">jump-start</div>
+                    <div class="jump-end ">jump-end</div>
+                    <div class="jump-both ">jump-both</div>
+                    <div class="jump-none ">jump-none</div>
+                    <div class="step-start ">step-start</div>
+                    <div class="step-end ">step-end</div>
+                    <script src="js/tf2.js "></script>
+                </div>
             </div>
         </details>
     </div>
