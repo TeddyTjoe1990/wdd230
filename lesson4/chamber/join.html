@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Batavia Chamber of Commerce Join Page" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/logos/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- FONT STYLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand&display=swap" rel="stylesheet" />
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/med.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <title>Batavia Chamber of Commerce - Join</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(max-width: 320px)" srcset="images/logos/logo50.webp" />
+            <source media="(max-width: 600px)" srcset="images/logos/logo80.webp" />
+            <source media="(max-width: 900px)" srcset="images/logos/logo100.webp" />
+            <img src="images/logos/logo100.webp" alt="Batavia Chamber of Commerce" title="Batavia Chamber Logo " />
+        </picture>
+
+        <h1>Batavia Chamber of Commerce</h1>
+        <h2>Your Trusted Chamber</h2>
+    </header>
+
+    <!-- CURRENT DATE HERE -->
+    <div class="date-container">
+        <div id="currentDate"></div>
+        <div class="social">
+            <a href="#">
+                <img class="icon" src="images/social/icon_fb.png" alt="Batavia Chamber Facebook" /></a>
+            <a href="#">
+                <img class="icon" src="images/social/icon_linkedin.png" alt="Batavia Chamber Linkedin" /></a>
+        </div>
+    </div>
+
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button id="hamburgerBtn">
+        <span>&#9776;</span>
+        <span>X</span>
+      </button>
+        <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html" target="_blank">Discover</a></li>
+            <li class="active"><a href="join.html" target="_blank">Join</a></li>
+            <li><a href="#" target="_blank">Directory</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT HERE -->
+    <main>
+
+        <!-- MESSAGE HERE -->
+        <div id="message" class="announcement">
+            &#129309; &nbsp; Come join us for the chamber meet and greet Saturday at 6:00PM.
+        </div>
+        <div class="join_page">
+            <section class="membership">
+                <h3>MEMBERSHIP PACKAGES<br/><em>(Annual Pricing)</em></h3>
+                <div class="mem_free">
+                    <h4>Non-profit | FREE</h4>
+                    <p>Be included in the chamber of commerce business directory</p>
+                </div>
+                <div class="mem_bronze">
+                    <h4>Bronze | IDR 1,000,000</h4>
+                    <p>Non-profit membership benefits + access to a membership adviser</p>
+                </div>
+                <div class="mem_silver">
+                    <h4>Silver | IDR 2,000,000</h4>
+                    <p>Bronze membership benefits + unique PR opportunities and community exposure</p>
+                </div>
+                <div class="mem_gold">
+                    <h4>Gold | IDR 4,500,000</h4>
+                    <p>Silver membership benefits + free advertising, discounts, and enhanced business growth features</p>
+                </div>
+            </section>
+
+            <section class="joinform">
+                <h4>JOIN BATAVIA CHAMBER OF COMMERCE</h4>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class="top">First Name <span class="req">*</span>
+                          <input type="text" name="fname" pattern="[a-zA-Z\s-]+" required/>
+                        </label>
+                        <label class="top">Last Name <span class="req">*</span>
+                          <input type="text" name="lname" pattern="[a-zA-Z\s-]+" required/>
+                        </label>
+                        <label class="top">Email <span class="req">*</span>
+                          <input type="email" name="email" placeholder="john.smith89@gmail.com" required/>
+                        </label>
+                        <label class="top">Cell Phone Number
+                          <input type="tel" name="phone" placeholder="+0123456789" />
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class="top">Business Name/Title <span class="req">*</span>
+                          <input type="text" name="busname" required/>
+                        </label>
+                        <label class="top">Business Position Title
+                          <input type="text" name="position" minlength="7" pattern="[a-zA-Z\s-]+"/>
+                        </label>
+                        <div>Business Description</div>
+                        <label class="sbs">
+                          <textarea name="busdesc" cols="37" rows="5" minlength="50" maxlength="300" placeholder="Description(max. 200 characters)"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <label class="sbs"><input type="radio" name="membership" value="free" /> Non Profit</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="bronze" />
+              Bronze</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="silver" />
+              Silver</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="membership" value="gold" /> Gold</label
+            >
+          </fieldset>
+
+
+          <!-- Hidden Fields: Current Date and Time-->
+          <input type="hidden" id="joinDate" name="joinDate" value="joinDate" />
+          <input type="hidden" id="joinTime" name="joinTime" value="joinTime" />
+
+          <!-- Submit Button -->
+          <input
+            type="submit"
+            name="submit"
+            value="Join Chamber"
+            class="submitBtn"
+          />
+        </form>
+      </section>
+      <div id="lastVisit" class="announcement hidden"></div>
+    </div>
+    </main>
+    <footer>
+      <!-- Chamber info -->
+      <div class="footer-wrapper">
+        <img
+          class="tiny-logo"
+          src="images/logos/Logo50.webp"
+          alt="Batavia Chamber Logo"
+          title="Batavia Chamber of Commerce"
+        />
+
+        <div class="chamber-address ">
+          Batavia Chamber of Commerce<br /> 
+          Sampoerna Strategic Square 22nd Floor, South Jakarta, <br /> 
+          D.K.I Jakarta, Indonesia
+        </div>
+
+        <div class="chamber-contact ">
+          info@bataviachamber.org<br /> 
+          +(62)21-888-1002<br />
+        </div>
+
+        <div class="chamber-map"><a href="#">Location Map</a></div>
+      </div>
+
+      <!-- Student Info -->
+      <div class="student-info ">
+        &copy; <span id="year"> </span>&nbsp;Batavia Chamber |
+        <span class="my_name">Teddy Tjoe</span> | WDD230 - 19 |
+        <span id="update"></span>
+      </div>
+    </footer>
+    <script src="js/scripts.js "></script>
+  </body>
+</html>
