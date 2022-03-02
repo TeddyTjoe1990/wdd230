@@ -478,3 +478,156 @@ main section.membership div {
     padding: 0;
     margin: 0 auto;
 }
+
+main section.membership div h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+    display: inline-block;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+div.mem_free h4 {
+    background-color: #caf0f8;
+}
+
+div.mem_bronze h4 {
+    background-color: #a16f03;
+    color: #fff;
+}
+
+div.mem_silver h4 {
+    background-color: #a5a58d;
+    color: #fff;
+}
+
+div.mem_gold h4 {
+    background: linear-gradient(135deg, #ec840d, #fcecc0, #e8aa24);
+}
+
+main section.membership div {
+    width: 100%;
+}
+
+main section.membership div p {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 1.1rem;
+}
+
+
+/*----------- FORM --------------*/
+
+.joinform h4 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+form fieldset {
+    margin: 2rem auto;
+    border: 2px solid #073ef5;
+    border-radius: 10px;
+    padding: 0.5rem 8%;
+}
+
+form legend {
+    color: #073ef5;
+    font-weight: 600;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: #555;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+form label.top input,
+form label.top select,
+textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #caf0f8;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: 0.75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 0 0.5%;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+form label.top input:required:invalid,
+form label.top input:invalid,
+textarea:invalid {
+    border-right: #4c956c solid 6px;
+}
+
+form label.top input:required:valid {
+    background-color: #077ee6;
+}
+
+form label.top input[type="text"]:focus,
+form label.top input[type="email"]:focus,
+form label.top input[type="tel"]:focus,
+textarea:focus {
+    border: 1px solid #077ee6;
+    outline: none;
+}
+
+ ::placeholder {
+    /* For Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--accent2-color);
+    font-size: 0.8rem;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: var(--accent2-color);
+    font-size: 0.8rem;
+}
+
+ ::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: var(--accent2-color);
+    font-size: 0.8rem;
+}
+
+.req {
+    color: var(--primary-color);
+}
+
+.hidden {
+    display: none;
+}

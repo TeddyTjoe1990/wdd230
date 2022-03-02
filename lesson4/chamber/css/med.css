@@ -147,7 +147,7 @@ main section.membership {
     display: flex;
     flex-direction: column;
     width: 45%;
-    margin: 0 auto;
+    margin: 10 auto;
     padding: 2rem 1rem;
     height: auto;
 }
