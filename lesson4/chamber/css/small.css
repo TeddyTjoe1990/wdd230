@@ -435,23 +435,25 @@ footer img {
 }
 
 
-/* DISCOVER - Lazy Load Images */
+/* DISCOVER */
 
-.cambs_imgs {
+.batavia_imgs {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.cambs_imgs img {
+.batavia_imgs img {
     width: 100%;
 }
 
-.cambs_imgs img:hover {
+.batavia_imgs img:hover {
     box-shadow: 0 0 2rem #023047;
 }
 
-.cambs_img_caption {
+.batavia_img_caption {
     align-self: center;
+    text-align: center;
+    margin: 1rem 0;
 }
 
 
