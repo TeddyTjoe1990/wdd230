@@ -592,7 +592,7 @@ textarea:invalid {
 }
 
 form label.top input:required:valid {
-    background-color: #077ee6;
+    background-color: #cfe3f5;
 }
 
 form label.top input[type="text"]:focus,
