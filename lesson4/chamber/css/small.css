@@ -573,12 +573,13 @@ form label.sbs {
 
 form input.submitBtn {
     border: none;
-    background-color: #073ef5;
+    background-color: #4c956c;
     color: white;
     border-radius: 1rem;
     padding: 0.75rem 1.5rem;
-    width: 90%;
+    width: 100%;
     max-width: 20rem;
+    align-items: center;
 }
 
 form label.top input:required {
