@@ -630,3 +630,68 @@ textarea:focus {
 .hidden {
     display: none;
 }
+
+
+/*----------- DIRECTORY --------------*/
+
+.dir {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0 auto;
+}
+
+.dir1 {
+    text-align: center;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.dir1 p {
+    margin: 0;
+}
+
+.dir img {
+    width: 100px;
+    padding-bottom: 1rem;
+}
+
+div.list-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid {
+    padding: 1rem;
+    margin: 1rem 0.1rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: 5px;
+    color: var(--accent2-color);
+    font-size: 1.5rem;
+}
+
+.fa-solid:hover {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+.view-active {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+
+/*----- DIRECTORY LIST VIEW ---*/
+
+
+/* apply class in .dir1:nth-child(even) 
+  [div .dir1:nth-child(even)]*/
+
+.list-view {
+    background-color: #f0a90f21;
+    border-radius: 0;
+    width: 100%;
+}

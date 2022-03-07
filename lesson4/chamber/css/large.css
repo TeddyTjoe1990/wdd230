@@ -87,4 +87,10 @@
     .student-info {
         font-size: 0.9em;
     }
+    /* DIRECTORY PAGE */
+    .dir-lrg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+    }
 }

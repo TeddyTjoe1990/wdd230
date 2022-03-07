@@ -1,0 +1,87 @@
+{
+    "companies": [{
+            "name": "Suvarna Sutera",
+            "address": "10 Suvarna Sutera Boulevard, Tangerang, IND ",
+            "phone": "+6221 31103838",
+            "website": "www.suvarnasutera.com",
+            "logo": "images/spotlight2/Suvarna-Sutera136.png"
+        },
+        {
+            "name": "Royal Canin Indonesia",
+            "address": "Pondok Indah Office Tower 3, Sultan Iskandar Muda St., Lot.V-TA 8 Floor Suite 803, South Jakarta, IND",
+            "phone": " +6221-29327950",
+            "website": "www.royalcaninindonesia.com",
+            "logo": "images/directory/Royal-Canin-Logo.png"
+        },
+        {
+            "name": "Ciputra ",
+            "address": "4-5 Cobble Yard Grafton Centre, Napier St, Cambridge, CB1 1HP",
+            "phone": "07980 233369",
+            "website": "www.dianehairint-hairloss.co.uk",
+            "logo": ""
+        },
+        {
+            "name": "Yellow Door Ltd",
+            "address": "Unit 5 Gwydir Enterprise Centre, 23-25, Gwydir St, Cambridge, CB1 2LG",
+            "phone": "01223 328051",
+            "website": "www.yellow-door.net",
+            "logo": ""
+        },
+        {
+            "name": "Compass Rehabilitation",
+            "address": "150 Sturton St, Cambridge, CB1 2QF",
+            "phone": "01223 774157",
+            "website": "www.compassrehabilitation.co.uk",
+            "logo": ""
+        },
+        {
+            "name": "Aptivate",
+            "address": "Citylife House, Sturton St, Cambridge, Cambridgeshire, CB1 2QF",
+            "phone": "01223 967838",
+            "website": "www.aptivate.org",
+            "logo": ""
+        },
+        {
+            "name": "Cultivate Gardens Ltd",
+            "address": "39b Abbey Walk, Cambridge, CB1 2QJ ",
+            "phone": "07842 597257",
+            "website": "www.thecultivatedgardeners.com",
+            "logo": ""
+        },
+        {
+            "name": "Sweat! Dance Fitness",
+            "address": "CSVPA Studio Sturton St, Cambridge, CB1 2QQ",
+            "phone": "07491 057353",
+            "website": "www.sweatdf.co.uk",
+            "logo": ""
+        },
+        {
+            "name": "Anglia Access Centre",
+            "address": "Anglia Ruskin University, East Rd, Cambridge, Cambridgeshire, CB1 1PT",
+            "phone": "0845 1962378",
+            "website": "www.anglia.ac.uk/aac",
+            "logo": ""
+        },
+        {
+            "name": "Anglian Home Surveyors Ltd",
+            "address": "208 Mill Rd, Cambridge, CB1 3NF",
+            "phone": "01223 661439",
+            "website": "www.anglianhomesurveyors.com",
+            "logo": ""
+        },
+        {
+            "name": "T M Electrical Services",
+            "address": "38 Cheddars Lane, Cambridge, CB5 8LD",
+            "phone": "01223 441111",
+            "website": "www.tm-electrical.com",
+            "logo": ""
+        },
+        {
+            "name": "Advance Aesthetics Of Cambridge",
+            "address": "Unit 32 Coldhams Rd, Cambridge, CB1 3EW",
+            "phone": "01223 650706",
+            "website": "www.denturescambridge.com",
+            "logo": ""
+        }
+    ]
+}
