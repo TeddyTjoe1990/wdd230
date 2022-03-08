@@ -1,87 +1,87 @@
 {
     "companies": [{
             "name": "Suvarna Sutera",
-            "address": "10 Suvarna Sutera Boulevard, Tangerang, IND ",
-            "phone": "+6221 31103838",
+            "address": "Suvarna Sutera Boulevard No.10, Tangerang, IND ",
+            "phone": "+6221 777 8588",
             "website": "www.suvarnasutera.com",
             "logo": "images/spotlight2/Suvarna-Sutera136.png"
         },
         {
             "name": "Royal Canin Indonesia",
-            "address": "Pondok Indah Office Tower 3, Sultan Iskandar Muda St., Lot.V-TA 8 Floor Suite 803, South Jakarta, IND",
-            "phone": " +6221-29327950",
+            "address": "Pondok Indah Office Tower 3, Sultan Iskandar Muda St, Lot.V-TA 8 Floor Suite 803, South Jakarta, IND",
+            "phone": "+6221-29327950",
             "website": "www.royalcaninindonesia.com",
             "logo": "images/directory/Royal-Canin-Logo.png"
         },
         {
-            "name": "Ciputra ",
-            "address": "4-5 Cobble Yard Grafton Centre, Napier St, Cambridge, CB1 1HP",
-            "phone": "07980 233369",
-            "website": "www.dianehairint-hairloss.co.uk",
-            "logo": ""
+            "name": "Ciputra World",
+            "address": "Profesor Doktor Satrio St, Lot. 3 - 5, South Jakarta, IND",
+            "phone": "+6221 29885858",
+            "website": "www.ciputradevelopment.com",
+            "logo": "images/directory/logocip.png"
         },
         {
-            "name": "Yellow Door Ltd",
+            "name": "NDE Express",
             "address": "Unit 5 Gwydir Enterprise Centre, 23-25, Gwydir St, Cambridge, CB1 2LG",
-            "phone": "01223 328051",
-            "website": "www.yellow-door.net",
-            "logo": ""
+            "phone": "+6221 758 4327",
+            "website": "www.NDEXpress.com",
+            "logo": "images/directory/NDE_C&C136.png"
         },
         {
-            "name": "Compass Rehabilitation",
+            "name": "OMNI Hospital",
             "address": "150 Sturton St, Cambridge, CB1 2QF",
             "phone": "01223 774157",
             "website": "www.compassrehabilitation.co.uk",
-            "logo": ""
+            "logo": "images/directory/OMNILogo.png"
         },
         {
-            "name": "Aptivate",
+            "name": "Global TV",
             "address": "Citylife House, Sturton St, Cambridge, Cambridgeshire, CB1 2QF",
             "phone": "01223 967838",
             "website": "www.aptivate.org",
-            "logo": ""
+            "logo": "images/directory/GlobalTVLogo.png"
         },
         {
-            "name": "Cultivate Gardens Ltd",
+            "name": "BCA",
             "address": "39b Abbey Walk, Cambridge, CB1 2QJ ",
             "phone": "07842 597257",
             "website": "www.thecultivatedgardeners.com",
-            "logo": ""
+            "logo": "images/directory/BCALogo.png"
         },
         {
-            "name": "Sweat! Dance Fitness",
+            "name": "102 Rent Car",
             "address": "CSVPA Studio Sturton St, Cambridge, CB1 2QQ",
             "phone": "07491 057353",
             "website": "www.sweatdf.co.uk",
-            "logo": ""
+            "logo": "images/directory/102CarRental.jpg"
         },
         {
-            "name": "Anglia Access Centre",
+            "name": "Madame Florist",
             "address": "Anglia Ruskin University, East Rd, Cambridge, Cambridgeshire, CB1 1PT",
             "phone": "0845 1962378",
             "website": "www.anglia.ac.uk/aac",
-            "logo": ""
+            "logo": "images/directory/madameFlo.png"
         },
         {
-            "name": "Anglian Home Surveyors Ltd",
+            "name": "Binus University",
             "address": "208 Mill Rd, Cambridge, CB1 3NF",
             "phone": "01223 661439",
             "website": "www.anglianhomesurveyors.com",
-            "logo": ""
+            "logo": "images/directory/logo-binus.png"
         },
         {
-            "name": "T M Electrical Services",
+            "name": "MS Glow",
             "address": "38 Cheddars Lane, Cambridge, CB5 8LD",
             "phone": "01223 441111",
             "website": "www.tm-electrical.com",
-            "logo": ""
+            "logo": "images/directory/msglowlogo.png"
         },
         {
-            "name": "Advance Aesthetics Of Cambridge",
+            "name": "Mandiri Bank",
             "address": "Unit 32 Coldhams Rd, Cambridge, CB1 3EW",
             "phone": "01223 650706",
-            "website": "www.denturescambridge.com",
-            "logo": ""
+            "website": "www.bankmandiri.com",
+            "logo": "images/directory/BmandiriLogo.jpg"
         }
     ]
 }
