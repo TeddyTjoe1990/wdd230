@@ -667,20 +667,20 @@ div.list-icons {
 .fa-solid {
     padding: 1rem;
     margin: 1rem 0.1rem;
-    border: 1px solid var(--accent2-color);
+    border: 1px solid #000;
     border-radius: 5px;
-    color: var(--accent2-color);
+    color: #f10404;
     font-size: 1.5rem;
 }
 
 .fa-solid:hover {
-    background-color: var(--accent1-color);
-    color: var(--secondary-color);
+    background-color: #5fffea;
+    color: #000;
 }
 
 .view-active {
-    background-color: var(--accent1-color);
-    color: var(--secondary-color);
+    background-color: #f84802;
+    color: #000;
 }
 
 
@@ -691,7 +691,7 @@ div.list-icons {
   [div .dir1:nth-child(even)]*/
 
 .list-view {
-    background-color: #f0a90f21;
+    background-color: #5fffea;
     border-radius: 0;
     width: 100%;
 }
