@@ -1,3 +1,5 @@
+const page = window.location.pathname;
+
 let completeDate = new Date();
 const daysName = [
     "Sunday",
@@ -23,7 +25,7 @@ const monthName = [
     "December",
 ];
 
-// Header Date display
+//--- HEADER DATE DISPLAY --- //
 const day = daysName[completeDate.getDay()];
 const todaysDate = completeDate.getDate();
 const month = monthName[completeDate.getMonth()];
@@ -43,11 +45,11 @@ if (dayNum == 1 || dayNum == 2) {
     message.classList.add("hide");
 }
 
-// Footer date display
+// Footer Date Display
 document.querySelector("#year").textContent = year;
 
-document.getElementById("update").textContent = " Last Updated: " + document.lastModified;
-
+document.getElementById("update").textContent =
+    " Last Updated: " + document.lastModified;
 
 // Hamburger Nav
 function toggleMenu() {
@@ -58,32 +60,7 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-// DISCOVER PAGE //
-
-// Last visit
-const lvMessage = document.querySelector("#lastVisit");
-const lv = localStorage.getItem("lastVisit");
-const now = Date.now();
-
-console.log(`Last visit: ${lv}`);
-console.log(`Today: ${now}`);
-//1000 milliseconds in 1 second, 60 seconds in 1 minute, 60 minutes in an hour, 24 hours in 1 day.
-const msInDay = 1000 * 60 * 60 * 24;
-console.log(`milliseconds in a day is ${msInDay}`);
-
-let difference = Math.round((now - lv) / msInDay);
-
-console.log(difference);
-
-localStorage.setItem("lastVisit", Date.now());
-
-if (lv == null) {
-    lvMessage.textContent = `This is your first visit!`;
-} else {
-    lvMessage.textContent = `Last visit to this page: ${difference} days.`;
-}
-
-// LAZY LOAD IMAGES
+//--- LAZY LOAD IMAGES ---//
 
 // get all imgs with data-src attribute
 const imagesToLoad = document.querySelectorAll("[data-src]");
@@ -123,17 +100,49 @@ if ("IntersectionObserver" in window) {
     });
 }
 
-// JOIN PAGE CURRENT DATE AND TIME
-const joinDate = document.querySelector("#joinDate");
-joinDate.textContent = currentDate;
+//===== PAGE SPECIFIC SCRIPT ======//
 
-const time = new Date().toLocaleTimeString();
+switch (page) {
+    //--- DISCOVER PAGE ---//
+    case "/chamber/discover.html":
+        // Last Visit
+        const lvMessage = document.querySelector("#lastVisit");
+        const lv = localStorage.getItem("lastVisit");
+        const now = Date.now();
 
-const joinTime = document.querySelector("#joinTime");
-joinTime.textContent = time;
+        console.log(`Last visit: ${lv}`);
+        console.log(`Today: ${now}`);
+        //1000 milliseconds in 1 second, 60 seconds in 1 minute, 60 minutes in an hour, 24 hours in 1 day.
+        const msInDay = 1000 * 60 * 60 * 24;
+        console.log(`milliseconds in a day is ${msInDay}`);
 
-// DIRECTORY
-const requestURL = "data/data.json";
+        let difference = Math.round((now - lv) / msInDay);
+
+        console.log(difference);
+
+        localStorage.setItem("lastVisit", Date.now());
+
+        if (lv == null) {
+            lvMessage.textContent = `This is your first visit!`;
+        } else {
+            lvMessage.textContent = `Last visit to this page: ${difference} days.`;
+        }
+        break;
+
+        //--- JOIN PAGE CURRENT DATE AND TIME ---//
+    case "/chamber/join.html":
+        const joinDate = document.querySelector("#joinDate");
+        joinDate.textContent = currentDate;
+
+        const time = new Date().toLocaleTimeString();
+
+        const joinTime = document.querySelector("#joinTime");
+        joinTime.textContent = time;
+        break;
+}
+
+//--- DIRECTORY --- //
+const requestURL = "https://teddytjoe1990.io/wdd230-1/chamber/data/data.json";
 
 fetch(requestURL)
     .then(function(response) {
@@ -282,4 +291,64 @@ function displayCompanies(company) {
             dir.lastElementChild.classList.remove("list-col");
         }
     }
+}
+
+//--- HOME SPOTLIGHT --- //
+const companiesURL = "https://teddytjoe1990.github.io/wdd230-1/chamber/data/data.json";
+const spot1name = document.querySelector("#spot1name");
+const spot1img = document.querySelector("#spot1img");
+const spot1slogan = document.querySelector("#spot1slogan");
+const spot1email = document.querySelector("#spot1email");
+const spot1phone = document.querySelector("#spot1phone");
+
+const spot2name = document.querySelector("#spot2name");
+const spot2img = document.querySelector("#spot2img");
+const spot2slogan = document.querySelector("#spot2slogan");
+const spot2email = document.querySelector("#spot2email");
+const spot2phone = document.querySelector("#spot2phone");
+
+fetch(companiesURL)
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(jsonObject) {
+        // console.table(jsonObject); // temporary checking for valid response and data parsing
+        const companies = jsonObject["companies"];
+        let sortedCompanies = companies.sort(function() {
+            return 0.5 - Math.random();
+        });
+        sortedCompanies.forEach(SpotlightCompanies);
+    });
+
+let goldMembers = {};
+let silverMembers = {};
+
+function SpotlightCompanies(company) {
+    //Create list of gold members
+    if (company.membership == "gold") {
+        Object.assign(goldMembers, company);
+    }
+
+    //Create list of silver members
+    if (company.membership == "silver") {
+        Object.assign(silverMembers, company);
+    }
+
+    // Display gold member to spotlight1 section
+    spot1name.textContent = goldMembers.name;
+    spot1img.setAttribute("src", goldMembers.logo);
+    spot1img.setAttribute("alt", goldMembers.name);
+    spot1img.setAttribute("loading", "lazy");
+    spot1slogan.textContent = `"${goldMembers.slogan}"`;
+    spot1email.textContent = goldMembers.email;
+    spot1phone.textContent = goldMembers.phone;
+
+    // Display silver member to spotlight2 section
+    spot2name.textContent = silverMembers.name;
+    spot2img.setAttribute("src", silverMembers.logo);
+    spot2img.setAttribute("alt", silverMembers.name);
+    spot2img.setAttribute("loading", "lazy");
+    spot2slogan.textContent = `"${silverMembers.slogan}"`;
+    spot2email.textContent = silverMembers.email;
+    spot2phone.textContent = silverMembers.phone;
 }
