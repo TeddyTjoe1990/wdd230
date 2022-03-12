@@ -32,6 +32,7 @@ div {
 
 p {
     border-top: 1px solid black;
+    justify-items: center;
 }
 
 .main-image {

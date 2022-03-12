@@ -108,23 +108,19 @@
                 </p>
             </section>
 
-            <section class="weather ">
+            <section class="weather">
                 <h2>Weather</h2>
-                <div class="weathervalue ">
-                    <picture>
-                        <source media="(max-width: 320px) " srcset="images/weather/weather60.png " />
-                        <source media="(max-width: 768px) " srcset="images/weather/weather70.png " />
-                        <source media="(max-width: 1000px) " srcset="images/weather/weather90.png " />
-                        <img src="images/weather/weather.png " alt="Weather " width="100 " />
-                    </picture>
-
-                    <div class="tempweather ">
-                        <h3><span id="temp ">28</span>&deg;F</h3>
-                        <p class="forecast ">Cloudy</p>
+                <div class="weathervalue">
+                    <div class="tempweather">
+                        <picture>
+                            <img src="" alt="" id="weathericon" />
+                        </picture>
+                        <h3><span id="temp"></span>&deg;F</h3>
+                        <p class="forecast">Cloudy</p>
                     </div>
                 </div>
                 <hr />
-                <b>Wind Speed: </b><span id="speed">58</span>mph<br />
+                <b>Wind Speed: </b><span id="speed"></span> mph<br />
                 <b>Wind Chill: </b><span id="chill"></span>
             </section>
 
@@ -190,7 +186,7 @@
             <span id="update"></span>
         </div>
     </footer>
-    <script src="js/scripts.js "></script>
+    <script src="js/scripts.js"></script>
     <script src="js/windchill.js"></script>
 </body>
 

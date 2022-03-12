@@ -1,14 +1,14 @@
 {
     "companies": [{
             "name": "Suvarna Sutera",
-            "address": "Suvarna Sutera Boulevard No.10, Tangerang, IND ",
+            "address": "Suvarna Sutera Boulevard No.10, Tangerang - Banten, IND ",
             "phone": "+6221 777 8588",
             "website": "www.suvarnasutera.com",
             "logo": "images/spotlight2/Suvarna-Sutera136.png"
         },
         {
             "name": "Royal Canin Indonesia",
-            "address": "Pondok Indah Office Tower 3, Sultan Iskandar Muda St, Lot.V-TA 8 Floor Suite 803, South Jakarta, IND",
+            "address": "Pondok Indah Office Tower 3, Sultan Iskandar Muda St, Lot.V-TA 8 Floor Suite 803, South Jakarta - DKI Jakarta, IND",
             "phone": "+6221-29327950",
             "website": "www.royalcaninindonesia.com",
             "logo": "images/directory/Royal-Canin-Logo.png"
@@ -22,64 +22,64 @@
         },
         {
             "name": "NDE Express",
-            "address": "Unit 5 Gwydir Enterprise Centre, 23-25, Gwydir St, Cambridge, CB1 2LG",
+            "address": "20 Cikunir Raya St, 20, 23-25, Bekasi - West Java, IND",
             "phone": "+6221 758 4327",
             "website": "www.NDEXpress.com",
             "logo": "images/directory/NDE_C&C136.png"
         },
         {
             "name": "OMNI Hospital",
-            "address": "150 Sturton St, Cambridge, CB1 2QF",
-            "phone": "01223 774157",
-            "website": "www.compassrehabilitation.co.uk",
+            "address": "Alam Sutera Boulevard Lot. 25, South Tangerang - Banten, IND",
+            "phone": "+6221 7775577",
+            "website": "www.omni-hospitals.com",
             "logo": "images/directory/OMNILogo.png"
         },
         {
             "name": "Global TV",
-            "address": "Citylife House, Sturton St, Cambridge, Cambridgeshire, CB1 2QF",
-            "phone": "01223 967838",
-            "website": "www.aptivate.org",
+            "address": "MNC Studios, Tower 3. Lapangan Bola St, West Jakarta - DKI Jakarta, IND",
+            "phone": "+6221 8990970",
+            "website": "www.globaltv.com",
             "logo": "images/directory/GlobalTVLogo.png"
         },
         {
             "name": "BCA",
-            "address": "39b Abbey Walk, Cambridge, CB1 2QJ ",
-            "phone": "07842 597257",
-            "website": "www.thecultivatedgardeners.com",
+            "address": "BCA Tower, 1 MH Thamrin St, Central Jakarta - DKI Jakarta, IND ",
+            "phone": "+6221 23588000",
+            "website": "www.bca.co.id",
             "logo": "images/directory/BCALogo.png"
         },
         {
             "name": "102 Rent Car",
-            "address": "CSVPA Studio Sturton St, Cambridge, CB1 2QQ",
-            "phone": "07491 057353",
-            "website": "www.sweatdf.co.uk",
+            "address": "Ocean Park BSD City Unit K16-K18, South Tangerang - Banten, IND",
+            "phone": "+6221 555 888 25",
+            "website": "www.102CarRent.com",
             "logo": "images/directory/102CarRental.png"
         },
         {
             "name": "Madame Florist",
-            "address": "Anglia Ruskin University, East Rd, Cambridge, Cambridgeshire, CB1 1PT",
-            "phone": "0845 1962378",
-            "website": "www.anglia.ac.uk/aac",
+            "address": "Cordoba Shop, 3 Pantai Indah Kapuk St, North Jakarta - DKI Jakarta, IND ",
+            "phone": "+6221 56945795",
+            "website": "www.madameflorist.com",
             "logo": "images/directory/madameFlo.png"
         },
         {
             "name": "Binus University",
-            "address": "208 Mill Rd, Cambridge, CB1 3NF",
-            "phone": "01223 661439",
-            "website": "www.anglianhomesurveyors.com",
+            "address": "27 Kebon Jeruk Raya St, West Jakarta - DKI Jakarta, IND",
+            "phone": "0804 1 69 69 69",
+            "website": "www.onlinelearning.binus.ac.id",
             "logo": "images/directory/logo-binus.png"
         },
         {
             "name": "MS Glow",
-            "address": "38 Cheddars Lane, Cambridge, CB5 8LD",
-            "phone": "01223 441111",
-            "website": "www.tm-electrical.com",
+            "address": "58 Komud ABD. Saleh St, Malang District - East Java,  IND",
+            "phone": "+62341 3022614",
+            "website": "www.msglowid.com",
             "logo": "images/directory/msglowlogo.png"
         },
         {
             "name": "Mandiri Bank",
-            "address": "Unit 32 Coldhams Rd, Cambridge, CB1 3EW",
-            "phone": "01223 650706",
+            "address": "Manggala Wanabakti Building, 1 Gatot Subroto St, Central Jakarta - DKI Jakarta, IND",
+            "phone": "+6221 5703246",
             "website": "www.bankmandiri.com",
             "logo": "images/directory/bmlogo.jpg"
         }
