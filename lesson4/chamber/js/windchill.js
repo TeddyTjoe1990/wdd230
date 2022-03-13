@@ -18,7 +18,7 @@ if (tempNum <= 50 && speedNum > 3) {
 //-- CURRENT WEATHER --//
 
 const apiURL =
-    "//api.openweathermap.org/data/2.5/find?q=Jakarta,GB&units=imperial&appid=6a8e47c47709fc9a90e95c0d8af1e420";
+    "//api.openweathermap.org/data/2.5/weather?id=Jakarta,ID&units=imperial&appid=93b04ac2e3dafc69e377e21afa088063";
 
 fetch(apiURL)
     .then((response) => response.json())
