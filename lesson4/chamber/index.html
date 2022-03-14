@@ -9,7 +9,7 @@
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="images/logos/favicon.ico" />
-    <link rel="manifest" href="site.webmanifest" />
+    <link rel="manifest" href="/lesson4/chamber/data/site.webmanifest" />
 
     <!-- FONT STYLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -131,27 +131,29 @@
             </section>
 
             <section class="spotlight1 ">
-                <h2 id="spot1name">Companyname</h2>
-                <img id="spot1img" src="" alt="" />
+                <h2>NDE Express</h2>
+                <picture>
+                    <source media="(max-width: 320px) " srcset="images/spotlight1/NDE_C&C85.png " />
+                    <source media="(max-width: 768px) " srcset="images/spotlight1/NDE_C&C108.png " />
+                    <source media="(max-width: 1000px) " srcset="images/spotlight1/NDE_C&C136.png " />
+                    <img src="images/spotlight1/NDE_C&C.png " alt="Spotlight 1 " title="NDE logo " />
+                </picture>
 
-                <p>
-                    <em><span id="spot1slogan"></span></em>
-                </p>
-                <hr />
-                <span id="spot1email"></span><br />
-                <span id="spot1phone"></span>
+                <p><em>"We sent it faster! "</em></p>
+                <hr /> info@NDCExpress.com<br /> +6221 758 4327
             </section>
 
             <section class="spotlight2 ">
-                <h2 id="spot2name">Companyname</h2>
-                <img id="spot2img" src="" alt="" />
+                <h2>Suvarna Sutera</h2>
+                <picture>
+                    <source media="(max-width: 320px) " srcset="images/spotlight2/Suvarna-Sutera85.png " />
+                    <source media="(max-width: 768px) " srcset="images/spotlight2/Suvarna-Sutera108.png " />
+                    <source media="(max-width: 1000px) " srcset="images/spotlight2/Suvarna-Sutera136.png " />
+                    <img src="images/spotlight2/Suvarna-Sutera.png " alt="Spotlight 2 " title="SuvTra logo " />
+                </picture>
 
-                <p>
-                    <em><span id="spot2slogan"></span></em>
-                </p>
-                <hr />
-                <span id="spot2email"></span><br />
-                <span id="spot2phone"></span>
+                <p><em>-Better Living, Better Life-</em></p>
+                <hr /> hello@suvarna-sutera.co.id<br /> +62 21 777 8588
             </section>
         </div>
     </main>
@@ -174,13 +176,12 @@
         <!-- Student Info -->
         <div class="student-info ">
             &copy; <span id="year"> </span>&nbsp;Batavia Chamber |
-            <span class="my_name ">Teddy Tjoe</span> | WDD230 - 19 |
+            <span class="my_name">Teddy Tjoe</span> | WDD230 - 19 |
             <span id="update"></span>
         </div>
     </footer>
-    <script src="js/scripts.js "></script>
-    <script src="js/spotlight.js "></script>
-    <script defer src="js/windchill.js "></script>
+    <script src="js/scripts.js"></script>
+    <script defer src="js/windchill.js"></script>
 </body>
 
 </html>
