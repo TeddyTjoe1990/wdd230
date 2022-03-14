@@ -1,3 +1,4 @@
+//--- HOME SPOTLIGHT --- //
 const companiesURL = "https://TeddyTjoe1990.github.io/wdd230/lesson4/chamber/data/data.json";
 const spot1name = document.querySelector("#spot1name");
 const spot1img = document.querySelector("#spot1img");

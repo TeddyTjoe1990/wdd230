@@ -17,26 +17,23 @@ if (tempNum <= 50 && speedNum > 3) {
 
 //-- CURRENT WEATHER --//
 
-const api = {
-    key: "93b04ac2e3dafc69e377e21afa088063",
-    URL: "https://api.openweathermap.org/data/2.5/"
-}
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Jakarta&units=metric&appid=93b04ac2e3dafc69e377e21afa088063";
 
-fetch(api)
+fetch(apiURL)
     .then((response) => response.json())
-    .then((jsObject) => {
-        // console.log(jsObject);
+    .then((weatherInfo) => {
+        // console.log(weatherInfo);
 
         // City Temperature
-        let temp = jsObject.list[0].main.temp;
-        let wholeTemp = Math.floor(temp);
+        let temp = weatherInfo.main.temp;
+        let wholeTemp = Math.round(temp);
         document.querySelector("#temp").textContent = wholeTemp;
 
         // Weather Image
-        const iconsrc = `//openweathermap.org/img/w/${jsObject.list[0].weather[0].icon}.png`;
+        const iconsrc = `https://openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`;
 
         // Weather Forecast
-        const desc = jsObject.list[0].weather[0].description;
+        const desc = weatherInfo.weather[0].description;
         const descWords = desc.split(" ");
 
         // Capitalize each first letter of weather forecast
@@ -50,7 +47,7 @@ fetch(api)
         document.querySelector(".forecast").textContent = descWords.join(" ");
 
         // Get windspeed and add to html page
-        let windSpeed = jsObject.list[0].wind.speed;
-        let wholeWindSpeed = Math.floor(windSpeed);
+        let windSpeed = weatherInfo.wind.speed;
+        let wholeWindSpeed = Math.round(windSpeed);
         document.querySelector("#speed").textContent = wholeWindSpeed;
     });
