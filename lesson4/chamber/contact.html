@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Batavia Chamber of Commerce Website." />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/logos/favicon.ico" />
+    <link rel="manifest" href="/lesson4/chamber/data/site.webmanifest" />
+
+    <!-- FONT STYLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+sans&family=Source+Serif+4&display=swap" rel="stylesheet" />
+
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/med.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>Batavia Chamber of Commerce - Home</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <source media="(max-width: 320px)" src="images/logos/Logo50.webp" />
+            <source media="(max-width: 600px)" src="images/logos/Logo80.webp" />
+            <source media="(max-width: 900px)" src="images/logos/Logo100.webp" />
+        </picture>
+        <img src="images/logos/Logo100.webp" alt="Batavia Chamber of Commerce" title="BataviaLogo" />
+        <h1>Batavia Chamber of Commerce</h1>
+        <h2>Your Trusted Chamber</h2>
+    </header>
+
+    <!-- CURRENT DATE HERE -->
+    <div class="date-container">
+        <div id="currentDate"></div>
+        <div class="social">
+            <a href="#">
+                <img class="icon" src="images/social/icon_fb.png" alt="Batavia Chamber Facebook" /></a>
+            <a href="#">
+                <img class="icon" src="images/social/icon_linkedin.png" alt="Batavia Chamber Linkedin" /></a>
+        </div>
+    </div>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <button id="hamburgerBtn">
+    <span>&#9776;</span>
+    <span>X</span>
+  </button>
+        <ul id="primaryNav">
+            <li class="active" target="_blank"><a href="index.html">Home</a></li>
+            <li><a href="discover.html" target="_blank">Discover</a></li>
+            <li><a href="directory.html" target="_blank">Directory</a></li>
+            <li><a href="join.html" target="_blank">Join</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT HERE -->
+    <main>
+        <!-- MESSAGE HERE -->
+        <div id="message" class="announcement">
+            &#129309; &nbsp; Come join us for the chamber meet and greet Saturday at 6:00PM.
+        </div>
+        <section class="contact">
+            <h3>CONTACT US</h3>
+            <!-- Top Section -->
+            <section class="getintouch">
+                <!-- Location -->
+                <div class="address">
+                    <h4>Batavia Chamber of Commerce</h4>
+                    Sampoerna Strategic Square 22nd Floor <br />South Jakarta, D.K.I Jakarta, Indonesia<br /> +(62)21-888-1002
+
+                    <h5>Office Hours:</h5>
+                    <p>Monday - Friday 8:00 AM to 5:00 PM</p>
+                </div>
+
+                <!-- Address Map -->
+                <div class="gmap_canvas">
+                    <a href="https://goo.gl/maps/z41jkskEGPmsUqtN8" target="_blank">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="images/ccoc-assets/ccoc-map300.jpg" />
+                            <source media="(max-width: 600px)" srcset="images/ccoc-assets/ccoc-map500.jpg" />
+                            <source media="(max-width: 900px)" srcset="images/ccoc-assets/ccoc-map500.jpg" />
+                            <img src="images/ccoc-assets/ccoc-map500.jpg" alt="Batavia Chamber Map" loading="lazy" />
+                        </picture>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Lower Section -->
+            <section class="getintouch">
+                <!-- Contact People -->
+                <div>
+                    <h5>--- Points of Contact ---</h5>
+                    <p>
+                        Bryan James<br /> President/CEO
+                        <br />
+                        <a href="mailto:ceo@cambschamber.org">ceo@cambschamber.org</a>
+                    </p>
+                    <h5>General Inquiries:</h5>
+                    <p>
+                        Heather Folkney<br /> Operations Assistant<br />
+                        <a href="mailto:email@cambschamber.org">email@cambschamber.org</a>
+                    </p>
+                    <h5>Membership Inquiries:</h5>
+                    <p>
+                        Taylor John<br /> Director of Membership<br />
+                        <a href="mailto:membership@cambschamber.org">membership@cambschamber.org</a
+              >
+            </p>
+            <h5>Media Inquiries:</h5>
+            <p>
+              Jacob Dan<br />
+              Director of Marketing<br />
+              <a href="mailto:media@cambschamber.org">media@cambschamber.org</a>
+                    </p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact_form">
+                    <form method="get" action="contact_thankyou.html">
+                        <h5>Alternatively, you can reach us using the form below:</h5>
+                        <fieldset>
+                            <legend>General Inquiries</legend>
+                            <label class="top">Name <span class="req">*</span
+                  ><input
+                    type="text"
+                    name="fname"
+                    pattern="[a-zA-Z\s-]+"
+                    required
+                /></label>
+                            <label class="top">Email <span class="req">*</span
+                  ><input
+                    type="email"
+                    name="email"
+                    placeholder="someone@gmail.com"
+                    required
+                /></label>
+                            <label class="top">Phone Number<input
+                    type="tel"
+                    name="phone"
+                    placeholder="1235551234"
+                /></label>
+                            <label class="top">Business Name/Title <span class="req">*</span
+                  ><input type="text" name="busname" required
+                /></label>
+
+                            <div>Questions/Comments</div>
+                            <label class="sbs">
+                  <span class="busdesc">Message</span>
+                  <textarea
+                    name="message"
+                    cols="37"
+                    rows="5"
+                    minlength="50"
+                    maxlength="300"
+                    placeholder="Enter text here (maximum 300 characters)"
+                  ></textarea>
+                </label>
+                            <!-- Submit Button -->
+                            <input type="submit" name="submit" value="Send Message" class="submitBtn" />
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <!-- Chamber info -->
+        <div class=" footer-wrapper ">
+            <img class="tiny-logo " src="images/logos/Logo.webp " alt="Batavia-Logo " title="BataviaLogo " />
+
+            <div class="chamber-address ">
+                Batavia Chamber of Commerce<br /> Sampoerna Strategic Square 22nd Floor, South Jakarta, <br /> D.K.I Jakarta, Indonesia
+            </div>
+
+            <div class="chamber-contact ">
+                info@bataviachamber.org<br /> +(62)21-888-1002<br />
+            </div>
+
+            <div class="chamber-map "><a href="# ">Location Map</a></div>
+        </div>
+
+        <!-- Student Info -->
+        <div class="student-info ">
+            &copy; <span id="year"> </span>&nbsp;Batavia Chamber |
+            <span class="my_name">Teddy Tjoe</span> | WDD230 - 19 |
+            <span id="update"></span>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

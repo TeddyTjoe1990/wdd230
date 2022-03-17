@@ -695,3 +695,65 @@ div.list-icons {
     border-radius: 0;
     width: 100%;
 }
+
+
+/* CONTACT PAGE */
+
+main .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h3 {
+    font-size: 1.2rem;
+}
+
+.contact h4 {
+    margin-top: 0.5rem;
+}
+
+.contact h5 {
+    margin-bottom: 0.1rem;
+    letter-spacing: 0;
+}
+
+.address {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.contact h4:last-child {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 300px;
+}
+
+main section.getintouch {
+    border: 0;
+}
+
+.getintouch div h5,
+p {
+    text-align: center;
+}
+
+.getintouch div h5 {
+    margin-top: 1rem;
+}
+
+div.contact_form {
+    margin-top: 3rem;
+}
+
+div.contact_form input.submitBtn {
+    margin: 0.7rem auto;
+    width: 100%;
+}
