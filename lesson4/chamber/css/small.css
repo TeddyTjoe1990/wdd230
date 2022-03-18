@@ -242,6 +242,7 @@ section h2 {
 
 section h3 {
     font-size: 0.9rem;
+    text-align: center;
 }
 
 section.placeholder h3 {
@@ -749,8 +750,9 @@ p {
     margin-top: 1rem;
 }
 
-div.contact_form {
+.div.contact_form {
     margin-top: 3rem;
+    padding-left: 5em;
 }
 
 div.contact_form input.submitBtn {

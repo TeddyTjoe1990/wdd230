@@ -1,12 +1,14 @@
+/* 64em is also 1028px when basefont is 16px */
+
 @media only screen and (min-width: 64rem) {
     .wrapper {
         grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto;
         grid-template-areas: "event hero s1" "weather hero s2" "join news news";
         grid-gap: 1px;
     }
     .hero {
-        background-image: url("../images/mainpict/HQSQ.jpg");
-        background-position: center 35%;
+        background-image: url("../images/hero-assets/hero915.jpg");
     }
     .hero-content {
         margin-top: 2rem;
@@ -18,7 +20,7 @@
     section h3,
     section p,
     section a {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     section h3 {
         letter-spacing: 0;
@@ -40,7 +42,7 @@
         font-size: 0.8rem;
     }
     .event img {
-        width: 40%;
+        width: 60%;
         margin-top: 0.7rem;
     }
     .spotlight1 img,
@@ -51,6 +53,18 @@
     .spotlight1 em,
     .spotlight2 em {
         color: #000;
+    }
+    #spot1email,
+    #spot2email,
+    #spot1phone,
+    #spot2phone {
+        font-size: 0.9rem;
+    }
+    .join button {
+        margin: 25% 0 10% 0;
+    }
+    .news p {
+        font-size: 1rem;
     }
     /*----------- DATE --------------*/
     .social {
@@ -86,6 +100,19 @@
     }
     .student-info {
         font-size: 0.9em;
+    }
+    form fieldset label,
+    form fieldset div {
+        margin: 0 3rem;
+    }
+    form input.submitBtn {
+        margin: 0 19%;
+    }
+    div.contact_form fieldset {
+        padding: 0;
+    }
+    div.contact_form input.submitBtn {
+        margin: 0.7rem 12%;
     }
     /* DIRECTORY PAGE */
     .dir-lrg {

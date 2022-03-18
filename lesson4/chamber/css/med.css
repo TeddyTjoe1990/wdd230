@@ -208,3 +208,20 @@ form input.submitBtn {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
+
+
+/* CONTACT */
+
+.gmap_canvas {
+    width: 500px;
+    height: 220px;
+}
+
+.getintouch {
+    display: flex;
+    gap: 2rem;
+}
+
+div.contact_form {
+    margin-top: 0;
+}
