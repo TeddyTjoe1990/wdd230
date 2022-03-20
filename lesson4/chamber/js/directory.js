@@ -35,15 +35,18 @@ function displayCompanies(company) {
     link.textContent = `${company.website}`;
     link.setAttribute("href", `http://${company.website}`);
     img.setAttribute("src", `${company.logo}`);
-    img.setAttribute("alt", `${company.name}`);
+    img.setAttribute("alt", `Logo - ${company.name}`);
     img.setAttribute("loading", "lazy");
+    img.setAttribute("width", "100");
+    img.setAttribute("height", "75");
 
     // Default view (grid)
     function defaultView() {
         // Add/append the section(card)
         card.appendChild(img);
         card.appendChild(para1);
-        para1.classList.add("hidden");
+        // para1.classList.add("hidden");
+        para1.style.fontWeight = "bold";
         card.appendChild(para2);
         card.appendChild(para3);
 
@@ -75,8 +78,7 @@ function displayCompanies(company) {
     // LIST VIEW changes
     function listView() {
         // Show company Name
-        para1.classList.remove("hidden");
-        para1.style.fontWeight = "bold";
+        // para1.classList.remove("hidden");
 
         // Hide company logo
         img.classList.add("hidden");
@@ -115,7 +117,7 @@ function displayCompanies(company) {
     // Back to default changes
     function listViewRemove() {
         // Hide company name
-        para1.classList.add("hidden");
+        // para1.classList.add("hidden");
 
         // Show company image
         img.classList.remove("hidden");

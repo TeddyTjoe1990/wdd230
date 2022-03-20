@@ -12,9 +12,9 @@
     <link rel="manifest" href="data/site.webmanifest" />
 
     <!-- FONT STYLE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+sans&family=Source+Serif+4&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Source+Serif+4&display=swap" rel="stylesheet">
 
     <!-- STYLE SHEETS -->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -70,12 +70,6 @@
         </div>
 
         <!-- Responsive Image -->
-        <picture class="herosrc">
-            <source media="(max-width: 320px)" srcset="images/herosrc/wdd230S.jpg ">
-            <source media="(max-width: 768px)" srcset="images/herosrc/wdd230M.jpg ">
-            <source media="(max-width: 1000px) " srcset="images/herosrc/wdd230L.jpg ">
-            <img src="images/herosrc/wdd230L.jpg " alt="HeroImage " />
-        </picture>
 
         <div class="wrapper ">
             <section class="hero ">
@@ -132,30 +126,28 @@
                 </button> Discover how to join the chamber of commerce and how it will benefit your business!
             </section>
 
-            <section class="spotlight1 ">
-                <h2>NDE Express</h2>
-                <picture>
-                    <source media="(max-width: 320px) " srcset="images/spotlight1/NDE_C&C85.png " />
-                    <source media="(max-width: 768px) " srcset="images/spotlight1/NDE_C&C108.png " />
-                    <source media="(max-width: 1000px) " srcset="images/spotlight1/NDE_C&C136.png " />
-                    <img src="images/spotlight1/NDE_C&C.png " alt="Spotlight 1 " title="NDE logo " />
-                </picture>
+            <section class="spotlight1">
+                <h2 id="spot1name">Company</h2>
+                <img id="spot1img" src="images/logos/favicon.ico" alt="" width="100" height="75" />
 
-                <p><em>"We sent it faster! "</em></p>
-                <hr /> info@NDCExpress.com<br /> +6221 758 4327
+                <p>
+                    <em><span id="spot1slogan"></span></em>
+                </p>
+                <hr />
+                <span id="spot1email"></span><br />
+                <span id="spot1phone"></span>
             </section>
 
-            <section class="spotlight2 ">
-                <h2>Suvarna Sutera</h2>
-                <picture>
-                    <source media="(max-width: 320px) " srcset="images/spotlight2/Suvarna-Sutera85.png " />
-                    <source media="(max-width: 768px) " srcset="images/spotlight2/Suvarna-Sutera108.png " />
-                    <source media="(max-width: 1000px) " srcset="images/spotlight2/Suvarna-Sutera136.png " />
-                    <img src="images/spotlight2/Suvarna-Sutera.png " alt="Spotlight 2 " title="SuvTra logo " />
-                </picture>
+            <section class="spotlight2">
+                <h2 id="spot2name">Company</h2>
+                <img id="spot2img" src="images/logos/favicon.ico" alt="" width="100" height="75" />
 
-                <p><em>-Better Living, Better Life-</em></p>
-                <hr /> hello@suvarna-sutera.co.id<br /> +62 21 777 8588
+                <p>
+                    <em><span id="spot2slogan"></span></em>
+                </p>
+                <hr />
+                <span id="spot2email"></span><br />
+                <span id="spot2phone"></span>
             </section>
         </div>
     </main>
@@ -184,6 +176,7 @@
     </footer>
     <script src="js/scripts.js"></script>
     <script defer src="js/windchill.js"></script>
+    <script src="js/spotlight.js"></script>
 </body>
 
 </html>
