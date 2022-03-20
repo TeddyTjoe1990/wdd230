@@ -2,86 +2,122 @@
     "companies": [{
             "name": "Suvarna Sutera",
             "address": "Suvarna Sutera Boulevard No.10, Tangerang - Banten, IND ",
-            "phone": "+6221 777 8588",
+            "email": "info@alamsutera.com",
+            "phone": " + 6221 777 8588 ",
             "website": "www.suvarnasutera.com",
-            "logo": "images/spotlight2/Suvarna-Sutera136.png"
+            "membership": "gold",
+            "logo": "images/spotlight2/Suvarna-Sutera136.png",
+            "slogan": "Bring your true Previlege Life"
         },
         {
             "name": "Royal Canin Indonesia",
             "address": "Pondok Indah Office Tower 3, Sultan Iskandar Muda St, Lot.V-TA 8 Floor Suite 803, South Jakarta - DKI Jakarta, IND",
+            "email": "contact-us@Mars.com",
             "phone": "+6221-29327950",
             "website": "www.royalcaninindonesia.com",
-            "logo": "images/directory/Royal-Canin-Logo.png"
+            "membership": "silver",
+            "logo": "images/directory/Royal-Canin-Logo.png",
+            "slogan": "Incredible in every detail"
         },
         {
             "name": "Ciputra World",
             "address": "Profesor Doktor Satrio St, Lot. 3 - 5, South Jakarta, IND",
+            "email": "investor@ciputra.com",
             "phone": "+6221 29885858",
             "website": "www.ciputradevelopment.com",
-            "logo": "images/directory/logocip.png"
+            "membership": "gold",
+            "logo": "images/directory/logocip.png",
+            "slogan": "Building a City Building a Life"
         },
         {
             "name": "NDE Express",
             "address": "20 Cikunir Raya St, 20, 23-25, Bekasi - West Java, IND",
+            "email": "contact@ndecargo.co.id",
             "phone": "+6221 758 4327",
             "website": "www.NDEXpress.com",
-            "logo": "images/directory/NDE_C&C136.png"
+            "membership": "free",
+            "logo": "images/directory/NDE_C&C136.png",
+            "slogan": "We sent your happiness"
         },
         {
             "name": "OMNI Hospital",
             "address": "Alam Sutera Boulevard Lot. 25, South Tangerang - Banten, IND",
+            "email": "sales.alamsutera@omni-hospitals.com",
             "phone": "+6221 7775577",
             "website": "www.omni-hospitals.com",
-            "logo": "images/directory/OMNILogo.png"
+            "membership": "bronze",
+            "logo": "images/directory/OMNILogo.png",
+            "slogan": "We care with Passion"
         },
         {
             "name": "Global TV",
             "address": "MNC Studios, Tower 3. Lapangan Bola St, West Jakarta - DKI Jakarta, IND",
+            "email": "Contact@globaltv.com",
             "phone": "+6221 8990970",
             "website": "www.globaltv.com",
-            "logo": "images/directory/GlobalTVLogo.png"
+            "membership": "silver",
+            "logo": "images/directory/GlobalTVLogo.png",
+            "slogan": "Best Choice for Indonesian Family"
         },
         {
             "name": "BCA",
             "address": "BCA Tower, 1 MH Thamrin St, Central Jakarta - DKI Jakarta, IND ",
+            "email": "halobca@bca.co.id",
             "phone": "+6221 23588000",
             "website": "www.bca.co.id",
-            "logo": "images/directory/BCALogo.png"
+            "membership": "gold",
+            "logo": "images/directory/BCALogo.png",
+            "slogan": "Always by Your Side"
         },
         {
             "name": "102 Rent Car",
             "address": "Ocean Park BSD City Unit K16-K18, South Tangerang - Banten, IND",
+            "email": "102Rent_Car@gmail.com",
             "phone": "+6221 555 888 25",
             "website": "www.102CarRent.com",
-            "logo": "images/directory/102CarRental.png"
+            "membership": "bronze",
+            "logo": "images/directory/102CarRental.png",
+            "slogan": "The Best Fleet at Lowest Price!"
         },
         {
             "name": "Madame Florist",
             "address": "Cordoba Shop, 3 Pantai Indah Kapuk St, North Jakarta - DKI Jakarta, IND ",
+            "email": "info@madameflorist",
             "phone": "+6221 56945795",
             "website": "www.madameflorist.com",
-            "logo": "images/directory/madameFlo.png"
+            "membership": "free",
+            "logo": "images/directory/madameFlo.png",
+            "slogan": "Flower & Bouquet Expertise"
         },
         {
             "name": "Binus University",
             "address": "27 Kebon Jeruk Raya St, West Jakarta - DKI Jakarta, IND",
+            "email": "pmb@binus.edu",
             "phone": "0804 1 69 69 69",
             "website": "www.onlinelearning.binus.ac.id",
-            "logo": "images/directory/logo-binus.png"
+            "membership": "silver",
+            "logo": "images/directory/logo-binus.png",
+            "slogan": "People, Innovation, Excellent"
         },
         {
             "name": "MS Glow",
             "address": "58 Komud ABD. Saleh St, Malang District - East Java,  IND",
+            "email": "info@msglowid.com",
             "phone": "+62341 3022614",
             "website": "www.msglowid.com",
-            "logo": "images/directory/msglowlogo.png"
+            "membership": "free",
+            "logo": "images/directory/msglowlogo.png",
+            "slogan": "Magic for your Skin"
         },
         {
             "name": "Mandiri Bank",
             "address": "Manggala Wanabakti Building, 1 Gatot Subroto St, Central Jakarta - DKI Jakarta, IND",
+            "email": "mandiricare@bankmandiri.co.id",
             "phone": "+6221 5703246",
             "website": "www.bankmandiri.com",
-            "logo": "images/directory/bmlogo.jpg"
+            "membership": "silver",
+            "logo": "images/directory/bmlogo.jpg",
+            "slogan": "Leading, Trusted, Growing With You"
         }
     ]
 }
