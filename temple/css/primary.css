@@ -102,10 +102,6 @@ nav button:hover {
     text-align: center;
     padding-top: 0.2em;
     margin-top: 1em;
-    font-style: italic;
-    -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
 }
 
 
@@ -140,9 +136,7 @@ nav button:hover {
 }
 
 #prefootMid a:hover {
-    color: #527500;
-    text-decoration: overline underline;
-    text-decoration-color: #0B0B0B;
+    color: #016DB0;
 }
 
 #midfootMid {
@@ -167,10 +161,7 @@ nav button:hover {
     width: 100%;
     text-align: center;
     margin: 0;
-    background-color: #FFFEFE;
-    -webkit-box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
-    -moz-box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
-    box-shadow: 0 -6px 6px 0 rgb(53, 53, 53);
+    background-color: #BEB7A4;
 }
 
 .bottomFooter a {
@@ -322,7 +313,7 @@ nav button:hover {
 }
 
 .weatherSumBox .value {
-    color: #9ee200;
+    color: #BEB7A4;
 }
 
 .weatherInfoLine .label,
@@ -347,7 +338,7 @@ nav button:hover {
 }
 
 .clickSlideToggle:hover {
-    color: #5c8301;
+    color: #A47E1B;
     cursor: pointer;
 }
 
@@ -358,7 +349,7 @@ nav button:hover {
     bottom: 0.5em;
     right: 1.5em;
     border: none;
-    background-color: rgba(92, 131, 1, 0.5);
+    background-color: #fffffc;
     padding: 0.5em 1em;
     cursor: pointer;
     -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);

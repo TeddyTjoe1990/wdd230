@@ -19,7 +19,7 @@
         display: none;
     }
     .active {
-        background-color: #d1d5d8;
+        background-color: #A47E1B;
         border-radius: 4em 4em 0 0;
     }
     .navigation {
@@ -43,19 +43,17 @@
         text-decoration: none;
         display: block;
         padding: 0.8em 1em;
-        color: #0B0B0B;
+        color: #2A2E34;
     }
     .navigation a:hover {
-        color: #d1d5d8;
-        text-decoration: overline;
-        text-decoration-color: #0B0B0B;
+        color: #A47E1B;
     }
     .active {
-        background-color: #d1d5d8;
-        border-radius: 4em 4em 0 0;
+        background-color: #A47E1B;
+        border-radius: 5em 5em 5em 5em;
     }
     .active a:hover {
-        color: #d1d5d8;
+        color: #FFFFFC;
         text-decoration: none;
     }
     /* footer section */
@@ -129,11 +127,10 @@
     }
     .templeInfoContainer {
         max-width: 50%;
-        margin: 5em auto 1em auto;
-        background-color: #d1d5d8;
+        margin: 5em auto 5em auto;
+        background-color: #BEB7A4;
         padding: 2em;
         border-radius: 0.2em;
-        justify-content: space-around;
     }
     .indTempImg {
         padding-top: 2em;
@@ -152,7 +149,7 @@
     /* Amenities Section */
     .amenitiesHome {
         margin: 5em;
-        background-color: #1f1f1f;
+        background-color: #2A2E34;
         padding: 2em;
         border-radius: 0.2em;
         color: #FFFEFE;
@@ -163,7 +160,7 @@
     }
     .amenitiesHome li:before {
         content: "\2022";
-        color: #5c8301;
+        color: #016DB0;
         font-weight: bold;
         display: inline-block;
         width: 1em;
