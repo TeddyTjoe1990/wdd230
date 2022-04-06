@@ -92,7 +92,7 @@ nav button:focus {
 
 nav button:hover {
     background-color: rgba(209, 213, 216, 0.15);
-    color: #527500;
+    color: #016DB0;
 }
 
 
@@ -174,11 +174,11 @@ nav button:hover {
 }
 
 .bottomFooter a {
-    color: #527500;
+    color: #2A2E34;
 }
 
 .bottomFooter a:hover {
-    color: #a5ec00;
+    color: #016DB0;
 }
 
 
@@ -207,11 +207,11 @@ nav button:hover {
 }
 
 #mainWelcome a {
-    color: #5c8301;
+    color: #A47E1B;
 }
 
 #mainWelcome a:hover {
-    color: #9ee200;
+    color: #016DB0;
 }
 
 #welcomeSubTitle {
@@ -231,8 +231,8 @@ nav button:hover {
 
 .heroContainer a {
     text-align: center;
-    background-color: #5c8301;
-    color: #FFFEFE;
+    background-color: #BEB7A4;
+    color: #A47E1B;
     border-radius: 0.5em;
     -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
     -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
@@ -240,15 +240,15 @@ nav button:hover {
 }
 
 .heroContainer a:hover {
-    background-color: #9ee200;
-    color: #0B0B0B;
+    background-color: #016DB0;
+    color: #000000;
 }
 
 
 /* Temple Info Section */
 
 .templeInfoContainer {
-    background-color: #d1d5d8;
+    background-color: #000000;
     padding: 2em;
     border-radius: 0.2em;
     display: flex;
@@ -276,7 +276,7 @@ nav button:hover {
 /* Amenities Section */
 
 .amenitiesHome {
-    background-color: #1f1f1f;
+    background-color: #A47E1B;
     padding: 2em;
     border-radius: 0.2em;
     color: #FFFEFE;
@@ -289,7 +289,7 @@ nav button:hover {
 
 .amenitiesHome li:before {
     content: "\2022";
-    color: #5c8301;
+    color: #016DB0;
     font-weight: bold;
     display: inline-block;
     width: 1em;
