@@ -38,6 +38,7 @@
             </div>
         </header>
 
+        <!-- Navigation -->
         <nav>
             <button onclick="toggleMenu()">&#9776; Menu</button>
             <ul id="primaryNav" class="navigation hide">
@@ -48,6 +49,102 @@
                 <li><a id="endNav" href="contact.html" target="_blank">Contact</a></li>
             </ul>
         </nav>
+    </div>
+
+    <h2 class="pageTitle">Reservation</h2>
+
+    <div class="containerReservation">
+
+        <!-- Title -->
+        <div id="reservationTitle">
+            <h2 class="pageTitle">Set your own date!</h2>
+        </div>
+
+        <!-- Reservation Form -->
+        <div class="reservationFormWrapper">
+            <form class="reservationForm" action="#" method="get">
+                <div id="reservationInputTop">
+
+                    <div id="upperUpper">
+                        <!-- location -->
+                        <div id="locationReservation">
+                            <label id="locationLbl" for="resLocation">Location </label>
+                            <select name="location" id="resLocation" class="locationArea">
+                                <option class="resLoc" disabled selected value>Select a location...</option>
+                                <option class="resOpt" value="Madridspain">Madrid Spain</option>
+                                <option class="resOpt" value="Idahofalls">Idaho Falls</option>
+                                <option class="resOpt" value="Cebucity">Cebu City</option>
+                                <option class="resOpt" value="Provocity">Provo City</option>
+                            </select>
+                        </div>
+
+                        <!-- date -->
+                        <div id="checkIn">
+                            <label id="dateInLbl" for="dateIn">Check in: </label>
+                            <input id="dateIn" name="date" type="date" min="2022-12-20" max="2025-12-20" class="input">
+                        </div>
+                        <div id="checkOut">
+                            <label id="dateOutLbl" for="dateOut">Check out: </label>
+                            <input id="dateOut" name="date" type="date" min="2022-12-21" max="2025-12-30" class="input">
+                        </div>
+
+                        <!-- number and types of rooms -->
+                        <div id="roomsReservation">
+                            <label id="roomLbl" for="roomType">Room Type </label>
+                            <input list="roomTypeList" id="roomType" class="typeArea" placeholder="Please Select">
+                            <datalist id="roomTypeList">
+                                <option class="typeOpt" value="Kitchenette Suite"></option>
+                                <option class="typeOpt" value="King"></option>
+                                <option class="typeOpt" value="Queen"></option>
+                                <option class="typeOpt" value="Single"></option>
+                                <option class="typeOpt" value="Double"></option>
+                            </datalist>
+                        </div>
+                    </div>
+
+                    <div id="lowerUpper">
+                        <!-- full name -->
+                        <div id="nameReservation">
+                            <label id="nameLbl" for="name">Full Name</label>
+                            <input id="name" type="text" name="fullname" class="input" placeholder="Your Name" pattern="[A-Za-z, ' ']{5,}" minlength=5 required>
+
+                        </div>
+
+                        <!-- email -->
+                        <div id="emailReservation">
+                            <label id="emailLbl" for="email">email</label>
+                            <input id="email" type="email" class="input" name="email" placeholder="email@yourmail.com" required>
+                        </div>
+
+                        <!-- phone -->
+                        <div id="phoneReservation">
+                            <label id="phoneLbl" for="phone">Phone</label>
+                            <input type="tel" class="input" id="phone" placeholder="(+00)123-123-4567" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
+                        </div>
+
+                        <!-- home state or country -->
+                        <div id="homeReservation">
+                            <label id="homeLbl" for="homeLoc">Home State or Country</label>
+                            <input id="homeLoc" name="home" class="input" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special accomodations / comments -->
+                <div class="messageReservation">
+                    <div>
+                        <label id="commentLbl" for="message">Special Accomodations / Comments</label>
+                        <textarea id="message" placeholder="Input request/your comment here..."></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" name="message" value="Submit!" class="btn" onclick="thanks()">
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
     </div>
 
     <!-- Footer -->

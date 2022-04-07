@@ -178,9 +178,9 @@
     ***************/
     /* Form Title */
     #reservationTitle {
-        color: rgb(255, 254, 254);
+        color: #2A2E34;
         align-self: center;
-        margin-right: 0.5em;
+        margin: 0;
         text-align: center;
     }
     /* Form Container */
@@ -223,9 +223,9 @@
         margin: 10px 0;
         background: transparent;
         border: 0;
-        border-bottom: 2px solid rgba(92, 131, 1, 0.8);
+        border-bottom: 2px solid #A47E1B;
         padding: 10px;
-        color: #1f1f1f;
+        color: #2A2E34;
     }
     /**************
     *  
