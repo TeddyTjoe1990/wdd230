@@ -131,7 +131,7 @@ nav button:hover {
 }
 
 #prefootMid a {
-    color: #0b0b0b;
+    color: #2A2E34;
     text-decoration: none;
 }
 
@@ -157,11 +157,11 @@ nav button:hover {
     padding: 2%
 }
 
-.bottomFooter {
+#leftbottomFooter {
     width: 100%;
     text-align: center;
     margin: 0;
-    background-color: #A47E1B;
+    background-color: #BEB7A4;
 }
 
 .bottomFooter a {
@@ -298,7 +298,7 @@ nav button:hover {
     width: 300px;
     margin: 3em 2em 0 0;
     padding: 15px;
-    background-color: #1f1f1f;
+    background-color: #2A2E34;
     color: #FFF;
     border-radius: 2%;
 }
