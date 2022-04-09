@@ -3,14 +3,17 @@ $(document).ready(function() {
     $('#servicesSlideMadrid').hide();
     $('#closuresSlideMadrid').hide();
     $('#summarySlideMadrid').hide();
+
     $('#mainInfoSlideIdaho').hide();
     $('#servicesSlideIdaho').hide();
     $('#closuresSlideIdaho').hide();
     $('#summarySlideIdaho').hide();
+
     $('#mainInfoSlideCebu').hide();
     $('#servicesSlideCebu').hide();
     $('#closuresSlideCebu').hide();
     $('#summarySlideCebu').hide();
+
     $('#mainInfoSlideProvo').hide();
     $('#servicesSlideProvo').hide();
     $('#closuresSlideProvo').hide();

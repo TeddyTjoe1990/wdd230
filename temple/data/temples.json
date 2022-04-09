@@ -1,20 +1,28 @@
 {
     "temple": [{
-            "name": "Idaho Falls Idaho Temple",
+            "name": "Madrid Spain Temple",
             "closures": [
-                { "date": "Tuesday, 28 June 2022 - Monday, 11 July 2022" },
-                { "date": "Saturday, 1 October 2022" },
-                { "date": "Wednesday, 23 November 2022 (Limited Operations)" },
-                { "date": "Thursday, 24 November 2022" },
-                { "date": "Saturday, 24 December 2022" },
-                { "date": "Saturday, 31 December 2022" }
+                { "date": "Monday, June 6 2022 - Monday, August 15 2022" },
+                { "date": "Saturday, October 1 2022 (Limited Operations)" },
+                { "date": "Saturday, December 24 2022" },
+                { "date": "Saturday, December 31 2022" }
             ]
         },
         {
-            "name": "Madrid Spain Temple",
+            "name": "Idaho Falls Idaho Temple",
             "closures": [
-                { "date": "Monday, 6 June 2022 - Monday, 15 August 2022" },
-                { "date": "Saturday, 1 October 2022 (Limited Operations)" },
+                { "date": "Tuesday, June 28 2022 - Monday, July 11 2022" },
+                { "date": "Saturday, October 1 2022" },
+                { "date": "Wednesday, November 23 2022 (Limited Operations)" },
+                { "date": "Thursday, November 24 2022" },
+                { "date": "Saturday, December 24 2022" },
+                { "date": "Saturday, December 31 2022" }
+            ]
+        },
+        {
+            "name": "Cebu City Philippines Temple",
+            "closures": [
+                { "date": "Monday, 15 August 2022 - Monday, 24 October 2022" },
                 { "date": "Saturday, 24 December 2022" },
                 { "date": "Saturday, 31 December 2022" }
             ]
@@ -27,14 +35,6 @@
                 { "date": "Wednesday, 23 November 2022 (Limited Operations)" },
                 { "date": "Thursday, 24 November 2022" },
                 { "date": "Monday, 28 November 2022 - Monday, 12 December 2022" },
-                { "date": "Saturday, 24 December 2022" },
-                { "date": "Saturday, 31 December 2022" }
-            ]
-        },
-        {
-            "name": "Cebu City Philippines Temple",
-            "closures": [
-                { "date": "Monday, 15 August 2022 - Monday, 24 October 2022" },
                 { "date": "Saturday, 24 December 2022" },
                 { "date": "Saturday, 31 December 2022" }
             ]
