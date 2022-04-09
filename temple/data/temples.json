@@ -1,6 +1,7 @@
 {
     "temple": [{
             "name": "Madrid Spain Temple",
+            "address": "Calle Del Templo No 2 Madrid 28030 Madrid, Spain",
             "closures": [
                 { "date": "Monday, June 6 2022 - Monday, August 15 2022" },
                 { "date": "Saturday, October 1 2022 (Limited Operations)" },
@@ -10,6 +11,7 @@
         },
         {
             "name": "Idaho Falls Idaho Temple",
+            "address": "1000 Memorial Dr Idaho Falls 83402-3410 Idaho, United States",
             "closures": [
                 { "date": "Tuesday, June 28 2022 - Monday, July 11 2022" },
                 { "date": "Saturday, October 1 2022" },
@@ -21,6 +23,7 @@
         },
         {
             "name": "Cebu City Philippines Temple",
+            "address": "Gorordo Avenue, Barangay Lahug, Cebu City, 6000 Cebu, Philippines",
             "closures": [
                 { "date": "Monday, 15 August 2022 - Monday, 24 October 2022" },
                 { "date": "Saturday, 24 December 2022" },
@@ -29,6 +32,7 @@
         },
         {
             "name": "Provo City Center Temple",
+            "address": "50 South University Ave Provo 84601 Utah, United States",
             "closures": [
                 { "date": "Monday, 20 June 2022 - Monday, 4 July 2022" },
                 { "date": "Saturday, 1 October 2022" },
