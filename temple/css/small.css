@@ -1,268 +1,556 @@
-@media only screen and (max-width: 415px) {
-    /* Header */
-    header {
-        flex-flow: column;
-        justify-content: space-around;
-        margin-top: 2em;
-        height: 230px;
-        align-items: center;
-        -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-        -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-        box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    }
-    .headerRight {
-        font-size: 1.0em;
-        padding-top: 10px;
-    }
-    .stickIt {
-        position: relative;
-        top: 0;
-        z-index: 5;
-    }
-    /* Navigation */
-    nav button {
-        display: block;
-        top: 190px;
-    }
-    .navigation {
-        -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-        -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-        box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-    }
-    nav ul {
-        flex-flow: column;
-        justify-content: flex-end;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-    nav ul li a {
-        display: block;
-        padding: .8rem 2%;
-        text-decoration: none;
-        border-top: 1px solid rgba(11, 11, 11, 0.911);
-        color: #0B0B0B;
-    }
-    nav ul li.active a {
-        background-color: #edf0f1;
-        color: rgb(121, 121, 121);
-        border-radius: 0 1em 1em 0;
-    }
-    nav ul li.active a:hover {
-        background-color: #edf0f1;
-        color: rgb(121, 121, 121);
-        border-radius: 0 1em 1em 0;
-        box-shadow: none;
-    }
-    nav ul.hide {
-        display: none;
-    }
-    nav li a:hover {
-        background-color: #BEB7A4;
-        color: #FFFFFC;
-        box-shadow: 2px 0 16px 2px rgb(32, 32, 32);
-    }
-    nav li a:active {
-        background-color: #BEB7A4;
-        border-radius: 1em 1em 0 0;
-        color: #A47E1B;
-    }
-    /* Page Title */
-    .pageTitle {
-        font-size: 2em;
-    }
-    /* Footer */
-    footer {
-        max-width: 100%;
-    }
-    .footerBzInfo {
-        align-content: center;
-        align-items: center;
-        padding: 0.2em;
-    }
-    #prefootMid {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        padding: 1em;
-    }
-    .iconLinks {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-    }
-    #midfootMid a {
-        align-self: center;
-        padding: 5px;
-    }
-    #map iframe {
-        max-width: 370px;
-        height: 200px;
-    }
-    /**************
-*  
-* Home Page
-*
-***************/
-    /* Hero img and book now btn */
-    .heroContainer img {
-        max-width: 100%;
-        margin: 0;
-        z-index: 0;
-    }
-    .heroContainer {
-        width: 100%;
-    }
-    .heroContainer a {
-        width: 100%;
-        padding: 0.3em 0;
-        font-size: 1.1em;
-    }
-    .heroContainer a:hover {
-        background-color: #016DB0;
-        color: #2A2E34;
-    }
-    .bookNowBtn {
-        display: block;
-        width: 100%;
-    }
-    #homeContent {
-        width: 100%;
-    }
-    #mainWelcome {
-        flex-flow: column;
-        justify-content: center;
-        width: 100%;
-    }
-    /* Welcome description text and image */
-    #mainWelcome>div:nth-child(1) {
-        padding: 0 1em;
-    }
-    #mainImgDiv {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    #mainImgDiv img {
-        align-content: center;
-    }
-    .homeMain {
-        flex-flow: column;
-    }
-    #mainImgDiv picture {
-        width: 100%;
-    }
-    /* temple info section */
-    .templeInfoContainer {
-        flex-flow: column;
-        max-width: 90%;
-        margin: 2em 1em;
-        padding: 1em;
-    }
-    /* amenities info section */
-    .amenitiesHome {
-        flex-flow: column;
-        max-width: 90%;
-        margin: 1em;
-    }
-    /**************
-*  
-* Temple Page
-*
-***************/
-    .templeTop {
-        margin-top: 3em;
-    }
-    .templeBottom {
-        margin-bottom: 3em;
-    }
-    /**************
-*  
-* Reservation Page
-*
-***************/
-    /* Form Container */
-    .containerReservation {
-        width: 100%;
-        display: flex;
-        flex-flow: column;
-    }
-    #reservationTitle {
-        width: 100%;
-        align-self: center;
-    }
-    .containerReservation>div {
-        justify-content: center;
-        align-items: center;
-    }
-    .reservationFormWrapper {
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        max-width: 400px;
-    }
-    .reservationForm {
-        margin: 1em;
-        justify-content: center;
-        align-content: center;
-    }
-    /* Form Content */
-    #reservationInputTop>div>div {
-        margin: 1em;
-    }
-    #reservationInputTop {
-        flex-flow: column;
-        justify-content: space-evenly;
-    }
-    #upperUpper,
-    #lowerUpper {
-        flex-flow: column;
-        justify-content: space-around;
-    }
-    #upperUpper>div,
-    #lowerUpper>div {
-        justify-content: space-evenly;
-        margin-right: 1.5em;
-    }
-    #upperUpper>div label,
-    #lowerUpper>div label {
-        display: block;
-    }
-    .reservationForm .messageReservation {
-        flex-flow: column;
-        width: 85%;
-    }
-    .reservationForm .messageReservation textarea {
-        height: 200px;
-        width: 100%;
-        margin: 10px 0;
-        background: transparent;
-        border: 0;
-        border-bottom: 2px solid #A47E1B;
-        padding: 10px;
-        color: #2A2E34;
-    }
-    /**************
-*  
-* Contact Page
-*
-***************/
-    .containerContact {
-        flex-direction: column;
-    }
-    .formField {
-        flex-flow: column;
-        justify-content: center;
-    }
-    .contact-form {
-        max-width: 300px;
-        padding: 10px;
-    }
-    .input-field {
-        flex-direction: column;
-        width: 100%;
-    }
-    .bznssInfo {
-        flex-flow: row wrap;
-        align-self: center;
-    }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #2a2e32;
+  --secondary-color: #454a4f;
+  --tertiary-color: rgb(111, 111, 111);
+  --accent1-color: #d4ccb9;
+  --accent2-color: #131519;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Georama", sans-serif;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+header,
+footer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+header {
+  background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
+}
+
+footer {
+  background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+/*----------- NAVIGATION --------------*/
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--accent1-color);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* box-shadow: 0px 2px 2px var(--accent1-color); */
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0.5rem 2vw;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: var(--accent1-color);
+}
+
+nav ul li.active a {
+  color: #fff;
+  margin: 0;
+  border-bottom: 2px solid var(--tertiary-color);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: var(--accent1-color);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+  position: absolute;
+  top: 16%;
+  left: 0;
+  background-color: rgb(42, 46, 50);
+  width: 100%;
+  margin: 0;
+  line-height: 2rem;
+  z-index: 2;
+}
+
+#primaryNav li.open{
+  font-size: 5rem;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/*----------- MAIN --------------*/
+
+.wrapper {
+  background-color: var(--secondary-color);
+  max-width: 960px;
+}
+
+main section {
+  background-color: var(--tertiary-color);
+  margin: 0 auto 0.2rem auto;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+main section:last-child {
+  margin-bottom: 0;
+}
+
+/*----------- MESSAGE --------------*/
+
+.announcement {
+  display: block;
+  height: auto;
+  /* overflow-y: auto; */
+  background-color: var(--tertiary-color);
+  padding: 1rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+#close_btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#close_btn i{
+  font-size: 1.5rem;
+}
+
+#close_btn h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.mssg hr{
+  border: none;
+  height: 1px;
+  background-color: var(--secondary-color);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+
+/*-- MAIN SECTION - HERO -- */
+.hero {
+  background-image: url("../images/hero_assets/hero360.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-content {
+  background-image: linear-gradient(to right, rgb(167, 154, 154), rgba(42, 46, 50, 0));
+  position: relative;
+  left: -1.5rem;
+  padding: 0.8rem 4vw;
+  width: 100%;
+  margin: 0.5rem 10% auto 0;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+}
+
+section button,
+.hero .btn,
+.join .btn {
+  background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.8rem;
+  border: 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.btn:active {
+  box-shadow: 0 0 5px var(--accent1-color);
+}
+
+/*--------- MAIN - TEMPLE -------*/
+
+section.temple p{
+  font-size: 1rem;
+}
+
+section.temple img{
+  width: 100%;
+}
+
+/*--------- MAIN - WEATHER -------*/
+
+section.weather {
+  text-align: center;
+}
+
+.weathervalue {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.weather h2 {
+  text-align: left;
+}
+
+.weather h3 {
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+p.forecast, p.forecast_1, p.forecast_2, p.forecast_3 {
+  font-size: 1.5rem;
+}
+
+.three_day_wrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+}
+
+.card {
+  border: 2px solid var(--secondary-color);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.267), var(--primary-color));
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+.three_day_wrapper h3 {
+  font-size: 2rem;
+}
+
+/*----------- TEMPLES PAGE --------------*/
+
+/*-- MAIN SECTION - TEMPLE -- */
+.hero-temples {
+  background-image: url("../images/herot_assets/herot360.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+
+.herot {
+  background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
+  top: 10%;
+}
+
+.dir{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.dir h3 {
+  font-size: 1.5rem;
+}
+
+.temple_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liked{
+  color: var(--accent2-color);
+}
+
+.temple_item{
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 1rem;
+
+}
+
+.temple_title p{
+  font-size: 0.7rem;
+  margin: 0.2rem;
+}
+
+/*----------- RESERVATION PAGE --------------*/
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+.rescontent{
+  background-color:rgba(111, 111, 111, 0.799);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+fieldset {
+  margin: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.7rem;
+  justify-content: center;
+  align-items: start;
+}
+
+fieldset h2{
+  font-size: 1rem;
+}
+
+form label.booking{
+  display: block;
+  padding-top: 0.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+form label.booking input,
+form label.booking select,
+textarea {
+  /* -webkit-appearance: none; */
+  display: block;
+  font-size: 1rem;
+  border: 1px solid var(--accent1-color);
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  margin: 0.3rem 0;
+}
+
+form input.submitBtn {
+  display: block;
+  border: none;
+  background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 0 0.5%;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form input.submitBtn:hover{
+  box-shadow: 0 5px 7px var(--secondary-color);
+}
+
+.confirmed{
+    background-image: linear-gradient(to right, rgb(167, 154, 154), rgba(42, 46, 50, 0));
+    padding: 1rem;
+    text-align: center;
+}
+
+/*----------- SERVICES PAGE --------------*/
+.services{
+  background-color:#454a4fbc;
+  border-radius: 5px;
+  margin: 1rem 0;
+  line-height: 1.5rem;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.services-content{
+  height: 100%;
+}
+
+/*----------- RECEPTION PAGE --------------*/
+.reception{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+.rec-item{
+  background-color: #454a4f5e;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-rec {
+  background-image: url("../images/heror_assets/heror360.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+
+.heror {
+  background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
+  top: 3%;
+}
+
+.rec-item{
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.rec-item img{
+  width: 100%;
+}
+
+.rec-venues{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.rec-venues h3 {
+  font-size: 1.5rem;
+}
+
+
+/*----------- MISSIONARIES PAGE --------------*/
+.missionaries{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+  background-color: #454a4f9c;
+}
+
+main section#mis-item, main section#mis-item2 {
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+main section#mis-item3{
+  background-color: transparent;
+}
+
+main section#mis-item3 img{
+  width: 100%;
+}
+
+fieldset.contactus{
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+fieldset legend h2{
+  font-size: 1.5rem;
+  /* margin-bottom: 0; */
+}
+
+input.contactbtn{
+  margin-top: 5rem;
+}
+
+form label.contact input,
+form label.contact select,
+textarea {
+  width: 13rem;
+}
+
+
+/*----------- FOOTER --------------*/
+
+footer {
+  flex-direction: column;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer div {
+  margin: 0.5em;
+}
+
+footer img {
+  height: 50px;
+  margin: 0 10px 10px 0;
+}
+
+.temple-address h3 {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+}
+
+.student-info {
+  font-size: 0.7em;
+}
+
+.my_name {
+  letter-spacing: 2px;
+  font-size: 1.2em;
 }

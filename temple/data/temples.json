@@ -1,47 +1,110 @@
 {
-    "temple": [{
+    "temples": [{
             "name": "Madrid Spain Temple",
             "address": "Calle Del Templo No 2 Madrid 28030 Madrid, Spain",
-            "closures": [
-                { "date": "Monday, June 6 2022 - Monday, August 15 2022" },
-                { "date": "Saturday, October 1 2022 (Limited Operations)" },
-                { "date": "Saturday, December 24 2022" },
-                { "date": "Saturday, December 31 2022" }
-            ]
+            "email": "https://www.churchofjesuschrist.org/temples/details/madrid-spain-temple?lang=eng",
+            "phone": "(34) 91-214-2607",
+            "services": ["Clothing rental available",
+                " No cafeteria available",
+                " No patron housing available",
+                " Distribution center nearby."
+            ],
+            "ordinance": "For schedule information, please call the temple",
+            "session": "For schedule information, please call the temple",
+            "history": [
+                "April 4 1993 - Announced",
+                "June 11 1996 - Groundbreaking",
+                "March 19 1999 - Dedication"
+            ],
+            "closure": [
+                "Tuesday, June 28 2022 - Monday, July 11 2022",
+                "Saturday, October 1 2022",
+                "Wednesday, November 23 2022 (Limited Operations)",
+                "Thursday, November 24 2022",
+                "Saturday, December 24 2022",
+                "Saturday, December 31 2022 (Limited Operations)"
+            ],
+            "image": "images/temples/madrid_spain_temple.jpeg"
         },
         {
-            "name": "Idaho Falls Idaho Temple",
+            "name": "Idaho Falls Temple",
             "address": "1000 Memorial Dr Idaho Falls 83402-3410 Idaho, United States",
-            "closures": [
-                { "date": "Tuesday, June 28 2022 - Monday, July 11 2022" },
-                { "date": "Saturday, October 1 2022" },
-                { "date": "Wednesday, November 23 2022 (Limited Operations)" },
-                { "date": "Thursday, November 24 2022" },
-                { "date": "Saturday, December 24 2022" },
-                { "date": "Saturday, December 31 2022" }
-            ]
+            "email": "https://www.churchofjesuschrist.org/temples/details/idaho-falls-idaho-temple?lang=eng",
+            "phone": "(1) 208-522-7669",
+            "services": ["Clothing rental available",
+                " No cafeteria available",
+                " No patron housing available",
+                " Distribution center nearby."
+            ],
+            "ordinance": "For schedule information, please call the temple",
+            "session": "For schedule information, please call the temple",
+            "history": [
+                "March 3 1937 - Announced",
+                "December 19 1939 - Groundbreaking",
+                "September 23 1945 - Dedicated",
+                "June 4 2017 - Rededicated"
+            ],
+            "closure": [
+                "Tuesday, June 28 2022 - Monday, July 11 2022",
+                "Saturday, October 1 2022",
+                "Wednesday, November 23 2022 (Limited Operations)",
+                "Thursday, November 24 2022",
+                "Saturday, December 24 2022",
+                "Saturday, 31 December 2022"
+            ],
+            "image": "images/temples/idaho_falls_idaho_temple.png"
         },
         {
             "name": "Cebu City Philippines Temple",
             "address": "Gorordo Avenue, Barangay Lahug, Cebu City, 6000 Cebu, Philippines",
-            "closures": [
-                { "date": "Monday, 15 August 2022 - Monday, 24 October 2022" },
-                { "date": "Saturday, 24 December 2022" },
-                { "date": "Saturday, 31 December 2022" }
-            ]
+            "email": "https://www.churchofjesuschrist.org/temples/details/cebu-city-philippines-temple?lang=eng",
+            "phone": "(27) 11-645-1540",
+            "services": ["Clothing rental available",
+                " No cafeteria available",
+                " No patron housing available",
+                " Distribution center nearby."
+            ],
+            "ordinance": "For schedule information, please call the temple",
+            "session": "For schedule information, please call the temple",
+            "history": [
+                "April 18 2006 - Announced",
+                "November 14 2007 - Groundbreaking",
+                "June 13 2010 - Dedicated"
+            ],
+            "closure": [
+                "Monday, 15 August 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ],
+            "image": "images/temples/cebu_philippines_temple.jpeg"
         },
         {
             "name": "Provo City Center Temple",
             "address": "50 South University Ave Provo 84601 Utah, United States",
-            "closures": [
-                { "date": "Monday, 20 June 2022 - Monday, 4 July 2022" },
-                { "date": "Saturday, 1 October 2022" },
-                { "date": "Wednesday, 23 November 2022 (Limited Operations)" },
-                { "date": "Thursday, 24 November 2022" },
-                { "date": "Monday, 28 November 2022 - Monday, 12 December 2022" },
-                { "date": "Saturday, 24 December 2022" },
-                { "date": "Saturday, 31 December 2022" }
-            ]
+            "email": "https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng",
+            "phone": "(1) 801-343-2700",
+            "services": ["Clothing rental available",
+                " No cafeteria available",
+                " No patron housing available",
+                " Distribution center nearby."
+            ],
+            "ordinance": "For schedule information, please call the temple",
+            "session": "For schedule information, please call the temple",
+            "history": [
+                "October 1 2011 - Announced",
+                "May 12 2012 - Groundbreaking",
+                "March 20 2016 - Dedicated"
+            ],
+            "closure": [
+                "Monday, 20 June 2022 - Monday, 4 July 2022",
+                "Saturday, 1 October 2022",
+                "Wednesday, 23 November 2022 (Limited Operations)",
+                "Thursday, 24 November 2022",
+                "Monday, 28 November 2022 - Monday, 12 December 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ],
+            "image": "images/temples/provo_city_center_temple.jpg"
         }
     ]
 }
