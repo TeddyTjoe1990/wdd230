@@ -24,7 +24,7 @@
                 "Saturday, December 24 2022",
                 "Saturday, December 31 2022 (Limited Operations)"
             ],
-            "image": "images/temples/madrid_spain_temple.jpeg"
+            "image": "images/temples/madrid_spain_temple.webp"
         },
         {
             "name": "Idaho Falls Temple",
@@ -52,7 +52,7 @@
                 "Saturday, December 24 2022",
                 "Saturday, 31 December 2022"
             ],
-            "image": "images/temples/idaho_falls_idaho_temple.png"
+            "image": "images/temples/idaho_falls_idaho_temple.webp"
         },
         {
             "name": "Cebu City Philippines Temple",
@@ -76,7 +76,7 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
             ],
-            "image": "images/temples/cebu_philippines_temple.jpeg"
+            "image": "images/temples/cebu_philippines_temple.webp"
         },
         {
             "name": "Provo City Center Temple",
@@ -104,7 +104,7 @@
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
             ],
-            "image": "images/temples/provo_city_center_temple.jpg"
+            "image": "images/temples/provo_city_center_temple.webp"
         }
     ]
 }
