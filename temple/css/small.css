@@ -90,7 +90,7 @@ a {
 }
 
 a:hover {
-    color: #fffffc;
+    color: #A47E1B;
 }
 
 nav ul {
@@ -154,7 +154,6 @@ main section:last-child {
 .announcement {
     display: block;
     height: auto;
-    /* overflow-y: auto; */
     background-color: rgba(190, 183, 164);
     padding: 1rem;
     color: #fff;
@@ -194,7 +193,6 @@ main section:last-child {
 /*-- MAIN SECTION - HERO -- */
 
 .hero {
-    background-image: url("../images/hero_assets/hero360.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -227,7 +225,7 @@ section button,
 }
 
 .btn:active {
-    box-shadow: 0 0 5px var(--accent1-color);
+    box-shadow: 0 0 5px #BEB7A4;
 }
 
 
@@ -280,7 +278,7 @@ p.forecast_3 {
 
 .card {
     border: 2px solid #2A2E34;
-    background-image: linear-gradient(#BEB7A4, var(--primary-color));
+    background-image: linear-gradient(rgba(255, 255, 252, 0.567), #2a2e34);
     width: 100%;
     border-radius: 5px;
     padding: 1rem;
@@ -298,7 +296,6 @@ p.forecast_3 {
 /*-- MAIN SECTION - TEMPLE -- */
 
 .hero-temples {
-    background-image: url("../images/herot_assets/herot360.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
