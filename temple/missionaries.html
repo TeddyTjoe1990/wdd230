@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="images/icons/favicon.ico" />
     <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png" />
     <link rel="manifest" href="images/icons/site.webmanifest" />
 
     <!-- FONT STYLE -->
@@ -65,7 +66,7 @@
     <main>
         <!-- MAIN SECTION CONTENTS HERE -->
         <div class="wrapper wrapper-temples">
-            <section class="hero servhero" title="Bed with lamp">
+            <section class="hero servhero" title="Luxury Room">
                 <h2>Suites for Full-Time Missionaries</h2>
                 <div class="missionaries">
                     <section id="mis-item">
@@ -114,49 +115,21 @@
                             <legend>
                                 <h2>Contact Us</h2>
                             </legend>
-                            <p>
-                                Got any questions or concerns?<br /><br />Send us a quick message using the simple form below:
-                            </p>
+                            <p>Send us a message using the simple form below:</p>
                             <!-- CUSTOMER DETAILS -->
-                            <label class="booking contact">Full Name<span class="req">* </span
-                  ><input
-                    type="text"
-                    name="fullName"
-                    pattern="[a-zA-Z\s-]+"
-                    minlength="2"
-                    required
-                /></label>
+                            <label class="booking contact">Full Name<span class="req">* </span>
+                                <input type="text" name="fullName" pattern="[a-zA-Z\s-]+" minlength="2" required/></label>
 
-                            <label class="booking contact">Email<span class="req">* </span
-                  ><input
-                    type="email"
-                    name="email"
-                    placeholder="email@email.com"
-                    required
-                /></label>
-                            <label class="booking contact">Phone Number<span class="req">* </span
-                  ><input
-                    type="tel"
-                    name="phone"
-                    placeholder="1235551234"
-                    minlength="8"
-                    required
-                /></label>
-                            <label class="booking contact">
-                  <span class="comments">Questions/Comments*</span>
-                  <textarea
-                    name="comments"
-                    cols="37"
-                    rows="5"
-                    minlength="50"
-                    maxlength="300"
-                    placeholder="Enter text here (maximum 300 characters)"
-                    required
-                  ></textarea>
-                  <br />
-                </label>
+                            <label class="booking contact">Email<span class="req">* </span>
+                                <input type="email" name="email" placeholder="your email" required/></label>
+
+                            <label class="booking contact">Phone Number<span class="req">* </span>
+                                <input type="tel" name="phone" placeholder="123-0123456789" minlength="8" required/></label>
+
+                            <label class="booking contact"><span class="comments">Questions/Comments*</span>            
+                                <textarea name="comments" cols="37" rows="5" minlength="50" maxlength="300" placeholder="Messages (maximum 300 characters)" required></textarea><br /></label>
                             <!-- Submit Button -->
-                            <input type="submit" name="submit" value="Send Message" class="submitBtn" />
+                            <input type="submit" name="submit" value="Submit!" class="submitBtn" />
                         </fieldset>
                     </form>
                 </div>
@@ -196,5 +169,7 @@
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/3ea636a8a6.js" crossorigin="anonymous"></script>
 </body>
+
+</html>
 
 </html>

@@ -2,7 +2,7 @@
     /*----------- HEADER --------------*/
     /*----------- BODY --------------*/
     main {
-        background-color: var(--secondary-color);
+        background-color: #fffffc;
     }
     .wrapper {
         margin: 0 auto;

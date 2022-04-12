@@ -199,7 +199,7 @@ main section:last-child {
 }
 
 .hero-content {
-    background-image: linear-gradient(to right, rgb(167, 154, 154), rgba(42, 46, 50, 0));
+    background-image: linear-gradient(to right, rgb(167, 154, 154), rgba(42, 46, 52, 0));
     position: relative;
     left: -1.5rem;
     padding: 0.8rem 4vw;
@@ -215,9 +215,9 @@ main section:last-child {
 section button,
 .hero .btn,
 .join .btn {
-    background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
+    background-image: linear-gradient(#232e34, rgb(42, 46, 52));
     border-radius: 5px;
-    color: #fff;
+    color: #016DB0;
     padding: 0.8rem;
     border: 0;
     cursor: pointer;
@@ -278,7 +278,7 @@ p.forecast_3 {
 
 .card {
     border: 2px solid #2A2E34;
-    background-image: linear-gradient(rgba(255, 255, 252, 0.567), #2a2e34);
+    background-image: linear-gradient(rgba(255, 255, 252, 0.267), #2a2e34);
     width: 100%;
     border-radius: 5px;
     padding: 1rem;
@@ -303,7 +303,7 @@ p.forecast_3 {
 }
 
 .herot {
-    background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
+    background-image: linear-gradient(to right, rgba(190, 183, 164, 0.504), rgba(42, 46, 52, 0));
     top: 10%;
 }
 
@@ -391,8 +391,8 @@ textarea {
 form input.submitBtn {
     display: block;
     border: none;
-    background-image: linear-gradient(#454a4f, rgb(42, 46, 50));
-    color: white;
+    background-image: linear-gradient(#000, rgb(42, 46, 52));
+    color: #FFFFFc;
     border-radius: 1rem;
     padding: 0.75rem 1.5rem;
     margin: 0 0 0 0.5%;
@@ -401,7 +401,7 @@ form input.submitBtn {
 }
 
 form input.submitBtn:hover {
-    box-shadow: 0 5px 7px var(--secondary-color);
+    box-shadow: 0 5px 7px #A47E1B;
 }
 
 .confirmed {
