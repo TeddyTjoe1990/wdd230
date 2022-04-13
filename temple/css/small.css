@@ -416,7 +416,7 @@ form input.submitBtn:hover {
 /*----------- SERVICES PAGE --------------*/
 
 .services {
-    background-color: rgb(164, 126, 27, 0.504);
+    background-color: rgb(164, 126, 27, 0.5);
     border-radius: 5px;
     margin: 1rem 0;
     line-height: 1.5rem;
@@ -458,7 +458,7 @@ form input.submitBtn:hover {
 }
 
 .heror {
-    background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 50, 0));
+    background-image: linear-gradient(to right, rgba(162, 154, 167, 0.504), rgba(42, 46, 52, 0));
     top: 3%;
 }
 
