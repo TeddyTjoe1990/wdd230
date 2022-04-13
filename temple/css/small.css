@@ -31,6 +31,7 @@ footer {
 h1 {
     font-family: 'Great Vibes', cursive, sans-serif;
     font-size: 2.625em;
+    color: #A47E1B;
 }
 
 h2,
@@ -311,10 +312,13 @@ p.forecast_3 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.5rem;
+    color: #A47E1B;
+    background-color: #2A2E34;
 }
 
 .dir h3 {
     font-size: 1.5rem;
+    color: #A47E1B;
 }
 
 .temple_title {
@@ -324,12 +328,11 @@ p.forecast_3 {
 }
 
 .liked {
-    color: #2A2E34;
+    color: #A47E1B;
 }
 
 .temple_item {
-    border: 1px solid #2A2E34;
-    border-radius: 5px;
+    border: 1px solid #A47E1B;
     padding: 1rem;
 }
 
@@ -379,7 +382,7 @@ textarea {
     /* -webkit-appearance: none; */
     display: block;
     font-size: 1rem;
-    border: 1px solid var(--accent1-color);
+    border: 1px solid #2A2E34;
     border-radius: 4px;
     padding: 0.5rem;
     color: #555;
@@ -405,7 +408,7 @@ form input.submitBtn:hover {
 }
 
 .confirmed {
-    background-image: linear-gradient(to right, rgb(167, 154, 154), rgba(42, 46, 50, 0));
+    background-image: linear-gradient(to right, rgb(164, 126, 27), rgba(42, 46, 52, 0));
     padding: 1rem;
     text-align: center;
 }
@@ -414,7 +417,7 @@ form input.submitBtn:hover {
 /*----------- SERVICES PAGE --------------*/
 
 .services {
-    background-color: #454a4fbc;
+    background-color: rgb(164, 126, 27, 0.504);
     border-radius: 5px;
     margin: 1rem 0;
     line-height: 1.5rem;
@@ -440,8 +443,8 @@ form input.submitBtn:hover {
 }
 
 .rec-item {
-    background-color: #454a4f5e;
-    color: #fff;
+    background-color: #A47E1B;
+    color: #232e34;
     padding: 1rem;
     width: 100%;
     margin: 0 auto;
@@ -461,7 +464,7 @@ form input.submitBtn:hover {
 }
 
 .rec-item {
-    border: 1px solid var(--primary-color);
+    border: 1px solid #2A2E34;
     border-radius: 5px;
     padding: 1rem;
 }
