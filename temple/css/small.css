@@ -349,8 +349,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .rescontent {
-    background-color: rgba(190, 183, 164, 0.7);
-    padding: 1rem;
+    background-color: rgba(190, 183, 164, 0.8);
+    padding: 2rem;
     margin: 0 auto;
 }
 
@@ -359,8 +359,8 @@ fieldset {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    padding: 0.7rem;
+    gap: 0.1rem;
+    padding: 0.5rem;
     justify-content: center;
     align-items: start;
 }
@@ -372,17 +372,16 @@ fieldset h2 {
 form label.booking {
     display: block;
     padding-top: 0.5rem;
-    color: #fff;
+    color: #FFF;
     font-size: 1rem;
 }
 
 form label.booking input,
 form label.booking select,
 textarea {
-    /* -webkit-appearance: none; */
     display: block;
     font-size: 1rem;
-    border: 1px solid #2A2E34;
+    border: 1px solid #232e34;
     border-radius: 4px;
     padding: 0.5rem;
     color: #555;
@@ -395,7 +394,7 @@ form input.submitBtn {
     display: block;
     border: none;
     background-image: linear-gradient(#000, rgb(42, 46, 52));
-    color: #FFFFFc;
+    color: #fffffc;
     border-radius: 1rem;
     padding: 0.75rem 1.5rem;
     margin: 0 0 0 0.5%;
